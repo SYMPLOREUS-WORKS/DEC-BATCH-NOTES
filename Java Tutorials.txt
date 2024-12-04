@@ -1,0 +1,96 @@
+DAY-1
+
+1.web application?
+An application which is running on a server and works with internet
+	static page
+	which is not responsive
+	HTML,CSS
+	reactive/dynamic webpages
+	amazon/Netflix/youtube
+	HTML,CSS,Bootstrap,Reactjs(Javascript)/Angular(Typescript)
+BackendApplication
+	Java 21
+	Spring framework 6+
+	SpringBoot framework 3+
+	MySQL DB 8+
+
+2.3 tier
+   3 layer 
+	1.persitence layer is the entry point for the application whcich invokes services layer
+	2.service layer where actual usiness logic is written and if required it will invoke repo layer
+	3.repository layer is responsible to do transactions with dbs 
+
+
+java
+ latest version is 23
+ features
+  2->collections
+  5->   forach loop
+	generics
+	anotaions
+	static import
+	wrapperclasses
+ 7->    oracle try with resources
+ 8->     functional programming
+	streams
+	datetime package
+	optional class
+11->
+17->sealed classes
+	switch syntax to return from case block
+	string template
+
+ 1950 sunsystem 
+ c ->syntax
+ c++->oops
+
+
+Features 
+ 	simple
+	robust 
+	secure
+	platform independent
+	multithreading
+	oop
+
+Installation
+
+	->download open source jdk (Zulu) https://www.bing.com/ck/a?!&&p=e4467cb843b30bab02de1249d48b034498a6569292f6d0e43a9a88eb05268166JmltdHM9MTczMzE4NDAwMA&ptn=3&ver=2&hsh=4&fclid=28752a61-16a4-671c-366b-3958177966d0&psq=zulu+java+jdk&u=a1aHR0cHM6Ly93d3cuYXp1bC5jb20vZG93bmxvYWRzLw&ntb=1
+	->copy the bin folder path and set as environment variable
+
+jdk-> java development kit  which provides runtime environment and developer tools like compiler,jar packing,documentation
+jdk= jre+ tools(compiler javac)
+jre->java run time environment which provides support to run java application
+jre= jvm+ in built lib
+jvm->java virtual machine which is used to load the .class file and execute our code
+
+set environment variable
+
+ JAVA_HOME->give your jdk path
+In paths set new path till bin so automatically it picks the java tools
+ex: java -version
+ class FirstProgram {
+
+	public static void main(String[] args) {
+		if(args.length>0)
+		System.out.println("Hi, "+args[0]+"\nWelocome to Java Tutorials");
+                else
+		System.out.println("Hi, Welocome to Java Tutorials");
+
+	}
+
+}
+
+create .java file and add above lines
+
+after open cmd from the file location and execute javac filename.java
+above command should generate the .class file 
+use java .class file name 
+you should see out put in cmd
+o/p: Hi, Welocome to Java Tutorials
+=================================================================
+TODO:
+install jdk and tools
+create first java program
+note all the features of java 21,17,11,8,5
+
