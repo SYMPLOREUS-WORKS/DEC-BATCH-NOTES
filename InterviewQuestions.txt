@@ -1,0 +1,20 @@
+JDK,JVM,application architecture 
+====================================
+1.What is Web application?
+2.What is framework?
+3.What is the use of persistence layer,Service layer and repository layer?
+4.Define http?
+5.Difference between JDK,JRE,JVM?
+6.What are feature of Java?
+7.How Java supports platform independent feature?
+8.What are components of JVM?
+9.How to fix the OutOfMemory issue in Java?
+ while running the application pass the arguments like :java -Xms512m -Xmx1024m YourApp or set JAVA_TOOL_OPTIONS and variable as size -Xms512m -Xmx1024m
+
+10.What are command line arguments?
+11.What is the role of execute engine?
+12.Define the types of memories in Java?
+13.What is Heap area/memory in Java?
+14.Why java is know as robust and how we it achieves it?
+15.Explain about the Garbage collector?
+===============================================
