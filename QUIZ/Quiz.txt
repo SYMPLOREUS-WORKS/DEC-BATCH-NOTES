@@ -1,0 +1,68 @@
+Identifiers
+
+1.Identify whether the following identifiers are valid or invalid. Provide reasons for your answer.
+	myVariable		
+	123number		
+	my_variable		
+	void		
+	_temp		
+	$price		
+	user-name		
+	if		
+	Test123		
+	my variable
+
+
+2.Identify the below statements are true or false
+S1:int $value = 100; is a valid identifier.
+S2:int _ = 50; is a valid identifier in Java 11.
+S3:An identifier can start with a digit if it is followed by a letter (e.g., 1name).
+S4:Reserved keywords such as class can be used as identifiers by prefixing them with $
+
+literals & datatypes
+
+1.Which of the following is NOT a primitive data type in Java?
+a) int
+b) float
+c) String
+d) Boolean
+
+2.What is the size of a char in Java?
+a) 8 bits
+b) 16 bits
+c) 32 bits
+d) 64 bits
+
+3.Which of the following is an example of a floating-point literal?
+a) 10.5f
+b) 10.5
+c) 10.5D
+d) All of the above
+
+4.What is the default value of a boolean variable?
+a) 0
+b) 1
+c) true
+d) false
+
+5.Which of the following literals represents a hexadecimal value?
+a) 0x1A
+b) 027
+c) 1E+2
+d) None of the above
+
+6.Which of the following is a correct literal for float?
+a) 10f
+b)010
+c)010.0
+d)0Xa1
+
+7.Does the below assignment is valid?Justify?  
+	int a = 0186;
+
+8.Which of the following is a correct ?
+a) double d=10f;
+b)double d2=010;
+c)double d3=010.0;
+d)double d4=0Xa1.0;
+
