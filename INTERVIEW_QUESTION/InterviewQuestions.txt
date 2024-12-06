@@ -18,3 +18,35 @@ JDK,JVM,application architecture
 14.Why java is know as robust and how we it achieves it?
 15.Explain about the Garbage collector?
 ===============================================
+Fundamentals Identifiers, Keywords, Datatypes, literals
+1.What is an identifier?
+2.What is implicit typecasting?
+3.What is explicit typecasting?
+4.What is a literal?
+5.What is loss of precision? why it occurs?
+6.Why float range is more than int even both have 4bytes ?
+https://stackoverflow.com/questions/13542944/how-many-significant-digits-do-floats-and-doubles-have-in-java
+7.What is the difference between primitive and non primitive datatypes?
+8.what is difference between final and finally keyword?
+9.Explain the use of this and super keywords?
+10.How are identifiers different from keywords?
+11.Why is $ or _ allowed in identifiers but not recommended?
+==============================================================
+Arrays,variables,methods
+1.What is an array in java?
+2.What are advantages and disadvantages of an array?
+3.What is difference between length and length()?
+4.What are common exceptions occurs while dealing with arrays? How to avoid it?
+5.What is an instance variable?
+6.List the memories in JVM?
+7.What is the scope of instance variable?
+8.What is the difference between static method and instance method?
+9.How static variable is different to instance variable?
+10.Explain the use of different memory areas in JAVA?
+11.Difference between the stack memory and heap memory?
+12.What happens to the object after execution of a method?
+13.Can we access an instance variable from the static area? Justify
+14.Can we access an static fields from the instance area? Justify
+15.Explain the scopes of instance ,static and local variables?
+16. Explain how the String[] args parameter of the main method is created in Java.
+===============================================================

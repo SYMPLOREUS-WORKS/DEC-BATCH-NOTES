@@ -1,4 +1,16 @@
 DAY-1
+Webapplication
+FrontEnd/UI
+Backend
+Server
+How to interact with webapplication
+3 tier architecture
+installation of java
+java history and evolution
+features of java
+jdk,jvm,jre
+First program
+
 
 1.web application?
 An application which is running on a server and works with internet
@@ -93,4 +105,150 @@ TODO:
 install jdk and tools
 create first java program
 note all the features of java 21,17,11,8,5
+
+================================================
+Day-2 05/12/24
+
+summary
+Java Fundamentals
+	class
+	methods
+	members
+	Identifiers
+	Reserved words(Keywords)
+	Datatypes
+	literals
+	arrays
+	types of variables
+	types of methods
+	var-arg methods
+	main method
+	
+Identifiers
+
+class ClassName{
+
+//datamembers
+//methods
+//blocks
+{}
+//constructors
+
+
+}
+ name of the members,methods,and class 
+	it should be contain only alphabets and numerics
+	it hould ot start with numbers
+	it should not contain any special characters
+	only $,_ allowed as identifiers 
+	
+
+reserved words
+	keywords
+	literals-> true,false,null
+datatypes->byte,short,int,long,float,double,char,boolean,var
+modifiers->public,private,protected,default,abstract,final,native,synchronized,volatile,transient,strictfp-12
+control statements-> if,else,switch,case,default,for,while,do,continue,break,return
+Exception handling -> try,catch,finally,throw,throws,assert
+source file->class,interface,extends,implements,package,import,enum
+object ->new ,this,super
+operator->instanceof
+return type-> void
+
+datatypes
+
+primitives
+	numeric
+		integras:
+		byte  8 bits  -128 to 127
+		short 2*8 bits -2^15 to 2^15-1
+		int   4*8bits  -2^31 to 2^31-1
+		long  8*8 bits  -2^63 to 2^63-1
+		decimals:
+		float  4*8 bits -3.4*e38 to 3.4*e^38-1 
+		double 8*b bits -1.7*e^308 to 1.7*e^308-1
+	non-numeric
+		char 2 bytes  0-65535
+		Boolean true,false
+
+byte->short->int->long->float->double
+      char
+typecasting
+	implicit typecasting 
+
+		assigning smaller datatype to bigger datatypes automatically
+long l=10;
+	explicit typecasting
+		assigining bger datatype to smaller datatypes we need to assign manually and there might be chance of loss of precision
+            long l=10l;
+      int a=l;
+
+int a=(int)biggerdatatype
+
+smalerdatatype name= (smallerdataype)biggerdatype;
+
+
+
+literals
+
+a literal is a constant value assigned to a variable w.r.t corresponding datatype
+
+by default all the integral literals or int literals
+if we want to make a long literal then we need to use L,l character at last
+
+we can use integral literals in 3 ways decimal format,octal form and hexa decimal format
+
+by default all the decimal literal are double iteral 
+if we want a float literal we need to mention F or f along with the decimal literal
+
+char literal is a character which we define in a ''
+==========================================================
+DAY-3 6/12/24
+
+install git bash
+set the git path till bin
+==
+for cloning
+crate a folder where u want to clone
+from that folder open git bash
+then execute git clone "git url"
+the code will be available in the local machine
+
+=============
+if you want to push the changes to new repo
+create a folder 
+write all the files 
+open cmd in the respective folder
+->git init to initialise empty repo
+->git add . to add all files
+->git commit -m "commit message"
+->git remote add origin "repo link"  to add the locally
+->git push origin master
+
+
+arrays
+types of variables
+types of methods
+var arg method
+main method
+
+Operators
+----------
+increment and decrement operators
+arithmetic operators
+assignment operators
+relational operators
+Logical operators
+== operator
+instanceof operator
+
+control statements 
+conditional statements
+iterative statements
+jump statement
+
+
+
+
+
 
