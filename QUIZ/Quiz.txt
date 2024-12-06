@@ -65,4 +65,143 @@ a) double d=10f;
 b)double d2=010;
 c)double d3=010.0;
 d)double d4=0Xa1.0;
+-----------------------------------------------------------
+Arrays
 
+1.What is the length of the array in the following code?
+Code:
+int [][] arr= new int[4][3];
+
+a)4
+b)3
+c)12
+d)None of the above
+
+2.What is the output of below code?
+
+code:
+
+int [][] arr= new int[3][3];
+
+System.out.println(arr[0][0]);
+
+a) 0
+b) 3
+c) null
+d) none of the above
+
+3.What is the output of below code?
+
+code:
+
+Integer[][] ii= new Integer[2][2];
+
+System.out.println(ii[0][0]);
+
+a) 0
+b) 3
+c) null
+d) none of the above
+
+4. What will happen if you try to assign a value to an uninitialized array?
+	code :
+	int[] arr;
+	arr[0] = 10;
+a) The value 10 will be assigned to the first element.
+b) Compilation error.
+c) Runtime error: NullPointerException.
+d) The array is automatically initialized.
+
+5. What does the following code output?
+	Code:
+	int[] arr = new int[0];
+	System.out.println(arr.length);
+a) 0
+b) Compilation error
+c) Runtime error: NullPointerException
+d) Runtime error: ArrayIndexOutOfBoundsException
+
+6. What is the output of the following code?
+	Code
+	int[] arr = {10, 20, 30, 40};
+	for (int i = 0; i < arr.length; i++) {
+    	arr[i] = arr[i] + i;
+	}
+	System.out.println(arr[2]);
+a) 32
+b) 30
+c) 33
+d) 31
+
+7. Which of the following declarations is valid in Java?
+a) int[][] arr = new int[][5];
+b) int[][] arr = new int[5][4];
+c) int[][] arr = {{1, 2, 3}, {4, 5}};
+d) Both b and c
+
+8.What is the result of the following code?
+	Code
+	int[][] arr = {{1, 2, 3}, {4, 5, 6}};
+	System.out.println(arr[1][2]);
+a) 2
+b) 6
+c) 4
+d) Compilation error
+
+9. What will the following code output?
+Coode:
+	int[] arr = {1, 2, 3, 4};
+	System.out.println(arr[arr.length]);
+a) 4
+b) Compilation error
+c) Runtime error: ArrayIndexOutOfBoundsException
+d) 0
+
+
+
+10.Which statement is true about arrays in Java?
+a) Arrays are dynamically resized during runtime.
+b) Arrays can store elements of different data types.
+c) Arrays have a fixed size that is determined during their creation.
+d) The size of an array can be modified using arr.length.
+
+11. What will the following code output?
+Code:
+System.out.println(new int[]{10, 20, 30}[2]);
+a) 10
+b) 20
+c) 30
+d) Compilation error
+
+12.Can you pass an anonymous array to a method in Java?
+a) Yes, it is allowed.
+b) No, it is not allowed.
+c) Only for primitive data types.
+d) Only for multi-dimensional arrays.
+
+13.What will the following code output?
+Code
+public class Test {
+    public static void main(String[] args) {
+        int sum = calculateSum(new int[]{5, 10, 15});
+        System.out.println(sum);
+    }
+
+    public static int calculateSum(int[] arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum += num;
+        }
+        return sum;
+    }
+}
+a) 30
+b) 25
+c) 20
+d) Compilation error
+
+14.Which of the following is a valid declaration of the main method in Java?
+a) public static void main(String args[])
+b) public static void main(String... args)
+c) static public void main(String[] args)
+d) All of the above
