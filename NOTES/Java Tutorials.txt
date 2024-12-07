@@ -234,20 +234,143 @@ main method
 
 Operators
 ----------
-increment and decrement operators
-arithmetic operators
+increment and decrement operators (--,++)
+int a=10;
+++a;
+//a=a+1;
+//max(int,datype of var1,datatype of var 2)
+
+int a=10;
+byte =20;
+int c= a+ b;
+
+max(int,int,byte)
+Syso(a--)
+
+byte b=30;
+b--;
+//b=b-1;
+max(int,byte,int)
+ b=(byte)int 29
+
+pre increment and post increment
+
+int a=30;
+Syso(++a);//31
+syso(a++);//31
+syso(a)//32
+
+
+arithmetic operators 
+
++,-,*,/,%
+int a=20;
+int b=30;
+a/b=0
+a%b=20
 assignment operators
+=
+compound assignment aperator
+a+=2;
+//a=a+2
+a*=3
+//a=a*3
+
 relational operators
+>,<,>=,<=,!=
+10!=20=true
+
+its is used to compare two operands 
+the result will be always a Boolean value
+
 Logical operators
+&,|
+
+true & true=true
+true | true=true
+false |true=true
+false |false=false
+false & faslse =false
+
+10>20 & args.length>0
+//assuming I am passig 1 runtime argument 
+false & true = true
+
+
+
+short circuit operators
+
+stateme1 && statemetn2
+
+Boolean && boolean= true
+&&,||
+
+true && false=false
+false && true=false
+
+true||fasle =true
+
+
 == operator
+
+compare the value
+if both values primitives then it will check the litera value
+if the poth values are non primitive datatypes then it will check the object reference
+
+
+
 instanceof operator
 
+int[] a= new int[10];
+
+main(){
+Object[] o= {"string",new StringBuilder(),new Bike(),new Vehicle()}
+}
+
+
+
 control statements 
+
 conditional statements
+ if(condition){
+l1
+l2
+l3
+l4
+l5
+
+}
+else{
+
+}
+
+
+if(small)
+{}
+else if(medium)
+{}
+else if(condirion)
+else{}
+
+
+
+note
+if should be followed by else
+independent if block can be there but not else block
+
+
+
 iterative statements
+
+for
+while
+do while
+
 jump statement
 
-
+break;
+continue;
+return;
 
 
 

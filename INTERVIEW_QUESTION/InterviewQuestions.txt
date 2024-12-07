@@ -50,3 +50,40 @@ Arrays,variables,methods
 15.Explain the scopes of instance ,static and local variables?
 16. Explain how the String[] args parameter of the main method is created in Java.
 ===============================================================
+operators and control statements
+1.What is the difference between while loop and do-while loop?
+2.Explain the scenerios where we can use the while loop?
+3.Explain the behaviour of + operator?
+4.What is the difference between pre-increment and post-increment operator?
+5.What is the difference between & operator and && operator?
+6.Explain about == operator?
+7.What is the difference between == operator and equals() method?
+8.Differnce between for loop and while loop?
+9.Explain the work flow of for loop?
+10.What is the difference between for loop and enhanced for loop?
+11.Explain advantage of enhanced for loop?
+12.How do shift operators (<<, >>, >>>) work in Java? Explain the difference between signed and unsigned shifts with examples.
+13.How is the switch statement different from a series of if-else statements? Which one is more efficient?
+14.Can a switch statement use String as a parameter? How does it work internally?
+it uses hashcode and equals method for comparision
+15.Can a switch statement use float as a parameter? Justify
+16. What is the difference between break and continue? Provide an example
+17.Can a for loop have multiple initialization and increment expressions? Provide an example.
+18.What is the purpose of a default label in a switch statement? Is it mandatory to include it?
+19.Explain the concept of "fall-through" in a switch statement. How can it be prevented?
+20.Can break and continue be used inside a try-catch-finally block? If yes, how do they behave?
+21.Can control statements like break or return be used inside a lambda expression? Why or why not?
+Need to know about the stream api as well
+22.What are all the datatypes applicable for the switch parameter?
+23.Why float,double and long are not allowed as the switch parameter?If we have a scenario with float or double parameter how to use it 
+24.How switch-case works wrt to primitives and Wrapper classes?
+for primitives direct value comparision will happen
+for wrappers it convert to primitive using auto unboxing 
+25.Explain the comparision mechanism of switch-case w.r.t enum data type
+It uses ordinal value for the comparision
+26.Explain enhanced switch and yield keyword?
+========================================================================
+
+
+
+

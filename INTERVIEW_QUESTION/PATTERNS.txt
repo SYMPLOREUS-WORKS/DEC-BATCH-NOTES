@@ -1,0 +1,76 @@
+1.Write a java code to print the below pattern
+	1 3 5
+	7 9 11
+	13 15 17
+2.Write a java code to print below pattern
+	0 2 4
+	6 8 10
+	12 14 16
+3.Write a java code to print below pattern
+	1 1 1
+	2 2 2
+	3 3 3
+4.Write a java code to print below pattern
+	1 2 3
+	1 2 3
+	1 2 3
+5.Write a java code to print below pattern
+	* 2 3
+	1 * 3
+	1 2 *
+6.Write a java code to print below pattern
+	1 2 3
+	4 5 6
+	7 8 9
+7. Write a java code to print below pattern
+	1 4 7
+	2 5 8
+	3 6 9
+8. Write a java code to print below pattern
+	1 2 3
+	4 4 6
+	7 8 9
+9.Write a java code to print below pattern
+	1
+	1 1
+	1 1 1
+10.Write a java code to print below pattern
+	1
+	2 3
+	4 5 6
+11.Write a java code to print below pattern
+	* * * *
+	 * * *
+	  * * 
+	   *
+12.Write a java code to print below pattern
+        * * * *
+	  * * *
+	    * *
+	      *
+13.Write a java code to print below pattern
+    *
+   ***
+  *****
+ *******
+*********
+14.Write a java code to print below pattern
+
+	* * * * *
+	*       *
+	*      	*
+	*       *
+	* * * * *
+
+15.Write a java program to print the below program
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+
