@@ -371,7 +371,57 @@ jump statement
 break;
 continue;
 return;
+==============================
+10/12/24
+
+java source file structure
 
 
+class->
+interface->
+enum->
+record->
+.java-> 100 s of class
+public class->
 
+package
+import
+  class {
 
+//datamenbers
+//methods
+}
+
+package
+import
+access modifiers
+public,private,protected,default
+classes,members,methods
+
+public->any where in project
+private-> u can only in he class
+
+com.a;
+class A{
+protected int a;
+
+}
+
+com.b;
+class B extends A{
+main(){
+
+B b= new B;
+b.a;
+}}
+# it is not applicable for classes(outer class)
+abstract,final,native,synchronized,volatile,transient,strictfp,sealed,static
+
+abstract ->methods,classes
+final-> methods,classess,data members
+native->method
+Synchronized-> methods,blocks
+volatile->data member
+transient->datamembers
+strictfp->methods,classes
+static->memers,methods,classes(inner classes only)
