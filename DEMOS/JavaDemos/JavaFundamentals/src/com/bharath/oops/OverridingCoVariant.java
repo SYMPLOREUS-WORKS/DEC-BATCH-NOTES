@@ -19,10 +19,9 @@ public class OverridingCoVariant {
 	public static void main(String[] args) {
 		Parent1 p = new Parent1();
 		Child1 c = new Child1();
-		Parent1 p1 = new Child1();
 
 		p.m1(0);
-		p1.m1(0);
+		c.m1(0);
 
 	}
 
