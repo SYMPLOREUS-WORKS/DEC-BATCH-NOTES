@@ -425,3 +425,63 @@ volatile->data member
 transient->datamembers
 strictfp->methods,classes
 static->memers,methods,classes(inner classes only)
+
+
+
+------------------------------
+oops
+
+Encapsulation
+Inheritence
+Polymorphism
+Astraction
+
+
+  data hiding
+  is a relationship
+  has a relationship 
+  method signature
+  overloading and overriding
+  static flow & instance flow
+  constructor and object
+
+
+why multiple inheritance is not possible in java?
+
+When ever there is confict between primitive,wrapper nd var args
+
+the order is
+
+primitive>wrapper>varargs
+
+
+
+key points 
+
+by default for all classes object class is parent t&C apply
+
+P p= new C();
+C c= new C();
+P p = new P();
+while overloading 
+ method signature should not be same
+ check if datatype can be auto promoted we don't have exact data type
+ check for the ambiguity aswell
+ if we are having conflict between primitive wrapper and varargs priority is primitive>wrapper>varargs
+ if we are having a conflict between child and parent child parameter method is given first priority
+while overriding
+ method signature is same
+ co variant return type is applicable for only objects or classes not for primitive
+ visibility should be increased
+ native->non-native vice versa
+ abstract-> non-abstract vice versa
+ strictfp->non-stictfp vice versa
+ static methods cannot be overridden bcz they are not dependent on object instead called as method hiding
+ private methods cannot be overridden as their scope is limit to that class
+ overriding concept not applicable for the variables
+ while implementing make sure no two methods is having same signature but different return type which is not possible
+ if overrdidden method is throwing an exception overriding should also throw same exception or it sub class exception
+
+
+
+

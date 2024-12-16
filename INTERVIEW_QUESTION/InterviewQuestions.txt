@@ -83,7 +83,43 @@ for wrappers it convert to primitive using auto unboxing
 It uses ordinal value for the comparision
 26.Explain enhanced switch and yield keyword?
 ========================================================================
-
+modifiers
+1.What are access modifiers in Java? List them.
+2.What is the difference between public, protected, default, and private access modifiers?
+3.What is the default access modifier in Java if none is specified?
+4.Can a top-level class be declared as private or protected? Why or why not?
+5.What does the final modifier do for variables, methods, and classes?
+6.What is the difference between static and final modifiers?
+7.Can a class be declared as final? What are the implications?
+8.What is the use of the static modifier in Java?
+9.What does the abstract modifier mean for a class and a method?
+10.What is the significance of the synchronized modifier in Java?
+11.Can a method be declared as both abstract and final? Why or why not?
+12.What is the difference between static and instance variables?
+13.Can a constructor be declared as final, static, or abstract? Why?
+14.What is the difference between transient and volatile modifiers in Java?
+15.Can an interface method be declared as private or protected? Explain.
+16.What happens if a final variable is not initialized?
+17.What is the use of the native modifier in Java?
+18.Can you override a private or static method in Java? Explain.
+19.What is the difference between final and effectively final variables in Java?
+20.Can a static method use non-static variables or methods directly? Why or why not?
+21.What is the difference between synchronized and volatile in multithreading?
+22.How do static blocks work in Java? When are they executed?
+23.Can a final class be extended? If not, why?
+24.How is the transient modifier used in serialization? Provide an example.
+25.What are the key differences between volatile and atomic in Java?
+26.Can you explain the role of strictfp in Java?
+27.What is the purpose of the protected modifier in inheritance? How does it differ from default?
+28.Can you use static methods in an interface? If yes, how is it different from default methods?
+29.How do Java modifiers impact encapsulation and inheritance?
+30.What are the implications of using final in Java's method arguments?
+31.Write a program to demonstrate the difference between public, protected, default, and private access levels.
+32.Show an example of how transient variables behave during serialization.
+33.Write code to demonstrate the use of static and final together in a variable.
+34.Create a multithreading example to illustrate the difference between synchronized and volatile.
+35.Write a program to show the behavior of final methods in inheritance
+=================================================================================
 
 
 
