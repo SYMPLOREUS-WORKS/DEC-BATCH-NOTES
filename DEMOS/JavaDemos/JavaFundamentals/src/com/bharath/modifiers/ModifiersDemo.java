@@ -1,7 +1,7 @@
 package com.bharath.modifiers;
 
 public class ModifiersDemo {
-
+protected int a;
 	public static void main(String[] args) {
 		ModifiersDemo md = new ModifiersDemo();
 		md.m1();

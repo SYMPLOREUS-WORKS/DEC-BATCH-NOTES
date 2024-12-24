@@ -121,5 +121,122 @@ modifiers
 35.Write a program to show the behavior of final methods in inheritance
 =================================================================================
 
+java source file structure
+
+1.What is the standard structure of a Java source file? Can you explain each part?
+2.What is the role of the package declaration in a Java source file? How does it affect the organization of classes?
+3.How do you define a class in a Java source file, and what are the rules for naming a class?
+4.What is the difference between a public class and a non-public class in terms of visibility and accessibility?
+5.Can a Java source file contain multiple classes? If so, how are they organized within the file?
+6.What is the significance of the import statement in a Java source file? How does it facilitate the use of classes from other packages?
+7.What is the purpose of the main method in a Java application, and what is its signature?
+8.Explain the difference between static and instance methods in the context of a Java class. How are they declared in the source file?
+9.How do annotations fit into the structure of a Java source file? Can you provide an example of using annotations?
+10.What are inner classes in Java? How are they defined within a source file?
+11.How does the use of interfaces differ from abstract classes in Java? How are they defined in a source file?
+12.What are the rules regarding file naming for Java source files, particularly in relation to public classes?
+13.How can you specify the visibility of class members (fields and methods) in a Java source file? What are the different access modifiers available?
+14.Can you explain the concept of JavaDoc comments? How are they structured, and why are they important?(writing the usage of the declared methods and what it does )
+15.What is the difference between a Java source file and a compiled class file? What happens during the compilation process?
+16.How do you handle exceptions in a Java source file? Can you explain the structure of try-catch blocks?
+17.What is the purpose of constructors in Java? How are they defined within a class in a source file?
+18.Can you explain how enums are defined in a Java source file? What is their purpose?
+19.What is the role of the static block in a Java class, and how is it defined within a source file?
+20.How can you use default access in Java, and how does it differ from other access modifiers?
+=============================================================================
+
+oops principles
+
+encapsulation
+
+1.What is encapsulation in Java?
+2.How can you achieve encapsulation in a Java class?
+3.What are access modifiers in Java, and how do they relate to encapsulation?
+4.Can you provide an example of a simple Java class that demonstrates encapsulation?
+5.Write a basic class with private fields and public getter and setter methods.
+6.What are the advantages of encapsulation?
+7.How does encapsulation improve the maintainability of code?
+8.Can you explain how encapsulation relates to data hiding?
+9.What happens if you try to access a private variable from outside its class?
+10.How can encapsulation be implemented  with inheritance?
+11.How to set the value of a private member?
+12.Can you explain the difference between encapsulation and abstraction?
+13.In what scenarios would you choose to use encapsulation over direct access to fields?
+14.How does encapsulation affect the performance of a Java application?
+15.What is immutable class in java? Write a code for custom immutable class?
+16.Can you discuss the role of immutable objects in encapsulation?
+17.How can encapsulation be applied in a multi-threaded environment?
+abstraction
+1.What is abstraction in Java?
+2.
+
+inheritance
+1.What is inheritance in Java?
+2.Explain types of inheritance?
+3.What is the difference between extends and implements keyword?
+4.What is use of super and this keyword?
+5. How can you prevent a class from being inherited in Java?
+6. How can you restrict inheritance of a class to only specific subclasses in Java?
+7.Does java supports multiple inheritance? Explain Why or Why not?
+8. Which access modifiers enhance the ability to inherit from a class in Java, and which ones restrict it?
+9.In how many ways we can restrict the inheritance in java?
+10. In what context is the permits keyword used in Java?
+
+polymorphism
+1.What is polymorphism?
+2.What is overloading and overriding?
+3.What is method hiding?
+4.Can we override static methods? Explain Why or Why not?
+5.Does overriding applicable for private methods? Explain 
+6.
+constructors
+1.What is the us of constructor in Java?
+2.What is default constructor in java?
+3.What is difference between parameter less constructor and parameterized constructor?
+4.What are the modifiers applicable for constructors?
+5.
+design patterns
+static and instance flow
+
+
+======================================================================================
+exception handling
+
+1.What is an exception in Java? How is it different from an error?
+2.What is the difference between checked and unchecked exceptions in Java?
+3.What are the keywords used for exception handling in Java?
+4.What is the purpose of the finally block in Java?
+5.What happens if no exception is thrown in the try block? Will the finally block execute?
+6.Can we have multiple catch blocks for a single try block?
+7.What is the difference between throw and throws in Java?
+8.What happens if an exception is not caught in a program?
+9.What is the default exception handler in Java?
+10.Can a try block exist without a catch block?
+11.What happens if there is an exception in the finally block?
+12.Can you explain exception chaining in Java? Provide an example.
+13.Can you override a method in Java and throw new or broader checked exceptions? Why or why not?
+14.What is the purpose of the getCause() method in Java exceptions?
+15.What is the difference between final, finally, and finalize()?
+16.Explain the use of try-with-resources. Why is it preferred over traditional try-catch-finally?
+17.Can we write multiple finally blocks for a single try block? Why or why not?
+18.What is a suppressed exception? How do you manage it in Java?
+19.What is the order of execution for try, catch, and finally blocks in Java? Provide a code example to explain.
+20.Can a finally block prevent the propagation of an exception? How?
+21.Explain how exception suppression works in Java when using try-with-resources. Provide a code example.
+22.What happens if both catch and finally blocks throw exceptions? Which one is propagated?
+23.How would you design a custom exception hierarchy to handle multiple layers of application-specific exceptions?
+24.Write a program to demonstrate the difference between re-throwing an exception with and without modifying its stack trace.
+25.How does Java internally handle exception propagation in a multi-threaded environment?
+26.Can you provide an example of a scenario where using checked exceptions would be better than unchecked exceptions?
+27.What is the difference between RuntimeException and Error in Java? Provide examples where each is appropriate.
+28.Explain how StackOverflowError and OutOfMemoryError are handled in Java. Can they be caught? Why or why not?
+29.Write code to demonstrate exception handling when dealing with nested try-catch-finally blocks. What happens if there’s an exception in the inner and outer blocks?
+30.Explain the implications of exception handling on performance. How can you optimize exception handling in Java?
+31. What are some best practices to prevent unchecked exceptions in Java?
+32. How would you troubleshoot and resolve an internal server error encountered by a user when making a request to your application?
+33. What are some common exceptions encountered when working with collection classes and thread-related operations in Java?
+34. What are the key methods available for handling exceptions in Java?
+35. Can you describe a scenario in which the finally block does not execute in Java?
+=====================================================================================================================
 
 
