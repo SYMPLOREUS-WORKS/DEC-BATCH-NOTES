@@ -1,0 +1,31 @@
+1.Create a Car class with attributes brand, model, and price. Write methods to set and get these values.
+2.Write a program to demonstrate the concept of inheritance.
+ Example: Create a parent class Animal with a method makeSound() and a child class Dog that overrides this method.
+3.Demonstrate method overloading in a Calculator class.
+ Add methods for addition with two and three parameters
+4.Create a class Rectangle with methods to calculate the area and perimeter.Use constructors to initialize the dimensions
+5.Write a program to demonstrate polymorphism using method overriding.
+ Example: Create a parent class Shape with a method draw() and child classes Circle and Square that override draw()
+6.Write a program to demonstrate the use of super and this keywords in inheritance.
+ Example: Use super to call a parent class method and this to refer to the current class variables.
+7.Implement an abstract class Employee with an abstract method calculateSalary().
+ Create two subclasses FullTimeEmployee and PartTimeEmployee that implement this method.
+8.Create an interface Payment with a method makePayment().
+ Implement this interface in two classes: CreditCardPayment and PayPalPayment
+9.Write a program to demonstrate the concept of constructors and constructor overloading.
+ Example: Create a Student class with constructors for initializing with and without student details.
+10.Demonstrate the use of static members in a BankAccount class.
+ Example: Use a static variable to keep track of the total number of accounts created
+11.Create a class hierarchy to demonstrate multiple inheritance using interfaces. 
+ Example: Interface Flyable, Interface Swimmable, and a class Duck implementing both
+12.Implement a singleton class Logger that allows only one instance to log messages.
+ Include thread-safety considerations.
+13.Write a program to demonstrate the concept of dependency injection (constructor injection).
+ Example: Inject a DatabaseService into a UserService class. 
+14.Write a program to demonstrate the factory design pattern.
+ Example: Create a ShapeFactory to return objects of Circle, Rectangle, or Square.
+15.Implement a program to demonstrate the observer design pattern.
+ Example: A WeatherStation class notifies multiple Display objects about weather changes.
+16.Create a class to demonstrate the Builder design pattern.
+ Example: Build a House object step by step with attributes like walls, roof, and windows
+17.Write a program to access the default method of interface A using a child object that implements both A and B interfaces, where both interfaces have the same default method?

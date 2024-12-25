@@ -166,9 +166,13 @@ encapsulation
 15.What is immutable class in java? Write a code for custom immutable class?
 16.Can you discuss the role of immutable objects in encapsulation?
 17.How can encapsulation be applied in a multi-threaded environment?
+
+
 abstraction
 1.What is abstraction in Java?
-2.
+2.Explain a scenario when to use an interface and when to use abstract class?
+3.
+
 
 inheritance
 1.What is inheritance in Java?
@@ -181,22 +185,93 @@ inheritance
 8. Which access modifiers enhance the ability to inherit from a class in Java, and which ones restrict it?
 9.In how many ways we can restrict the inheritance in java?
 10. In what context is the permits keyword used in Java?
+11.What is the difference between a superclass and a subclass?
+12.How do you implement inheritance in Java? Provide an example
+13.Can a subclass access private members of its superclass? Explain why or why not.
+14.Can a constructor in a subclass call a constructor of its superclass? How?
+15.What happens when you create an object of a subclass?
+16.How is method overriding different from method overloading in the context of inheritance?
+17.How can you prevent a class from being subclassed?
+18.How does inheritance promote code reusability? Provide an example.
+19.Can a subclass have the same name as a method in its superclass? What happens?
+20.What are abstract classes and how do they relate to inheritance?
+21.Can you achieve polymorphism with inheritance? Explain how.
+22.What is the diamond problem in inheritance, and how does Java handle it?
+23.What is the role of the Object class in Java inheritance?
+24.How does Java handle method resolution in the case of multiple inheritance using interfaces?
+25.Can a class implement multiple interfaces that have the same method signature? What happens?
+26.What is the difference between shallow copy and deep copy in the context of inheritance?
 
 polymorphism
+
 1.What is polymorphism?
 2.What is overloading and overriding?
 3.What is method hiding?
 4.Can we override static methods? Explain Why or Why not?
 5.Does overriding applicable for private methods? Explain 
-6.
+6.Explain co-variant return type and its context?
+7.Explain the overriding wrt to visbility of the method?
+8.Explain the overriding wrt to propogation of exception (throws)?
+9.Why can’t we achieve runtime polymorphism with static methods?
+10.How does polymorphism relate to inheritance in Java?
+11.What is the difference between upcasting and downcasting in polymorphism?
+12.How is polymorphism implemented in the JVM (Virtual Method Table or vtable)?
+13.What happens if you declare a method in a parent class as final and try to override it in a subclass?
+14.How does polymorphism work with interfaces in Java?
+15.Can a constructor be polymorphic? Why or why not?
+16.What is the role of dynamic method dispatch in runtime polymorphism?
+17.How does polymorphism help in designing extensible and maintainable applications?
+18.Explain the difference between early binding and late binding. How does it relate to polymorphism?
+19.How would you use polymorphism in designing a payment system (e.g., credit card, PayPal, UPI)?
+20.Explain the use of polymorphism in the Java Collections Framework.
+21.Describe a scenario where polymorphism can simplify adding new functionality to a system.
+
+
+
 constructors
-1.What is the us of constructor in Java?
+1.What is the use of constructor in Java?
 2.What is default constructor in java?
-3.What is difference between parameter less constructor and parameterized constructor?
+3.What is difference between parameter less constructor and default constructor?
 4.What are the modifiers applicable for constructors?
-5.
+5.What is the use of super() and this() in java?
+6.Can we have super() and this() together in a constructor? Explain
+7.Explain why constructors are not applicable for the interfaces but we have constructors in abstract class .
+8.Can we have a constructor in an Enum Explain with demo?
+9.Can we create an object with out new keyword explain?(newInstance,while deserialising the object )
+10.Can you overload constructors in Java? Provide an example.
+11.Can a constructor call another constructor of the same class? How is it done?
+12.In what scenarios would you prefer using factory methods over constructors?
+13.What are static blocks, and how do they differ from constructors?
+14.How does garbage collection affect objects created using constructors?
+15.What is constructor chaining in Java? Explain with an example.
+16.Why can't a constructor be final, abstract, or static?
+17.If a parent class doesn't have a default constructor, what issues might arise in the child class?
+18.Explain how constructors handle exception throwing in Java.?
+19.What is constructor chaining in Java? Explain with an example.?
+20.What happens if you explicitly define a constructor in your class? Does Java still provide a default constructor?
+21.Can we declare a parameterized constructor in the parent class without defining any constructor in the child class?
+
 design patterns
+
+1.What is singleton pattern explain with code?
+2.What are common design patterns?
+
 static and instance flow
+
+1.Explain why we cannot access instance members in static area?
+2.How many times static blocks will be executed ? Explain
+3.Explain the static and instance flow?
+4.What is the difference between static variables and instance variables?
+5.Can a static block throw an exception? If yes, provide an example.
+6.Explain the sequence of execution of static blocks, instance blocks, and constructors.
+7.How do static blocks differ from instance blocks?
+8.What happens if an exception occurs inside a static block?
+9.Can we have multiple static blocks in a class? How are they executed?
+10.Can a static block access instance variables or methods? Why or why not?
+11.What is the purpose of static blocks, and where are they commonly used?
+12.Can we call the constructor from a static method? Explain.
+13.How does JVM manage the memory of static variables?
+
 
 
 ======================================================================================
@@ -238,5 +313,71 @@ exception handling
 34. What are the key methods available for handling exceptions in Java?
 35. Can you describe a scenario in which the finally block does not execute in Java?
 =====================================================================================================================
+Object class
+
+1.What is the Object class in Java?
+2.Why is the Object class considered the root class in Java?
+3.What are the key methods provided by the Object class?
+4.What is the purpose of the equals() method in the Object class?
+5.How does the hashCode() method work in the Object class?
+6.Explain the toString() method in the Object class. Why is it useful?
+7.What is the significance of the clone() method in the Object class?
+8.Can you explain the finalize() method and its purpose?
+9.How does the Object class support polymorphism in Java?
+10.What happens when you call the getClass() method on an object?
+11.What is the difference between == and equals() method when comparing objects?
+12.How do you override the equals() and hashCode() methods correctly? Why is it important?
+13.What is the purpose of the notify() and notifyAll() methods in the Object class?
+14.Can you describe the wait() method and its significance in thread synchronization?
+15.What is shallow copying and deep copying in the context of the clone() method?
+16.Why is the finalize() method deprecated in Java?
+17.How can you create a clone of an object using the clone() method?
+18.What are some common pitfalls when overriding the equals() method?
+19.Explain how you can use the Object class in Java's collection framework.
+20.How does the Object class enable runtime type identification?
+===============================================================
+String class
+
+
+============================================================
+Wrapper classes
+
+1.What are autoboxing and unboxing in Java? How do they simplify working with primitive types and wrapper classes?
+2.How many ways can an Integer object be created in Java? Explain each method with an example.
+3.How can you convert a primitive int value to an Integer object in Java? Provide examples of different approaches.
+4.What is NumberFormatException in Java? In which scenarios does this exception occur? Demonstrate with a code example.
+5.Which methods are used to extract primitive values from wrapper objects in Java? Provide examples for common wrapper classes like Integer and Double.
+6.What is the buffer constant pool in Java? How is it related to wrapper objects?
+7.Under what circumstances does an Integer object use the heap area versus the buffer constant pool? Explain with examples.
+8.What is the purpose of the parseInt() method in the Integer class? Provide a code example and discuss best practices to avoid exceptions like NumberFormatException.
+9.What are the roles of the equals(), hashCode(), and toString() methods in wrapper classes? How are they implemented?
+10.How can you perform conversions between primitive types and wrapper objects in Java? Provide examples for both autoboxing and explicit conversion.
+11.Explain how wrapper classes support the Comparable and Serializable interfaces.
+12.What is the behavior of Double.NaN, Double.POSITIVE_INFINITY, and Double.NEGATIVE_INFINITY in wrapper classes?
+13.Explain the role of wrapper classes in Java Collections Framework.
+14.What happens when a null value is unboxed into a primitive type?
+15.Can you modify the cache behavior of Integer or Boolean wrapper classes? If yes, how?
+16.How are wrapper classes different in Java 8 versus earlier versions?
+17.Can you override the behavior of a wrapper class?
+18.Why does Integer.valueOf(127) == Integer.valueOf(127) return true, but Integer.valueOf(128) == Integer.valueOf(128) return false?
+19.What are the limitations of autoboxing and unboxing?
+20.What happens when you use wrapper classes in multithreaded environments?
+21.How do wrapper classes impact memory usage in enterprise applications?
+22.What are the use cases where wrapper classes are preferred over primitive types?
+23.Why are wrapper classes immutable? What are the advantages and disadvantages of this design?
+24.How does the compareTo() method work in wrapper classes?
+25.What are wrapper classes in Java? Why are they needed?
+26.List all the wrapper classes in Java and their corresponding primitive types.
+27.What is the difference between a primitive type and a wrapper class?
+28.What is the default value of wrapper class objects in Java?
+29.How do wrapper classes ensure immutability
+30.What is integer cache explain?
+
+========================================================================================
+
+
+
+
+
 
 

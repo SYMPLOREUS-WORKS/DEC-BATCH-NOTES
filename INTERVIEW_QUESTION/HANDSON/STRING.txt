@@ -1,0 +1,37 @@
+1.Write a program to reverse the string without using in built methods?
+2.Write a program to find if string is a palindrome?
+madam->palindrome
+teacher->not palindrome
+3.Write a program to find the length of string without using inbuilt length()?
+4.Write a program to find substring without using substring()?
+5.Write a program to find the occurrence of character ?
+6.Write a program to find the indeces of occurance of a character in a string?
+7.Write a program to find the occurance of each character in a given name?
+8.Write a program to capitalize the first letter of each word in a sentence.
+Example Input: bharath simha reddy
+Expected Output: Bharath Simha Reddy
+9.Write a program to reverse each word in a sentence.
+Example Input: Bharath simha reddy
+Expected Output: htarahB ahmis ydder
+10.Write a program to sort a given list of strings in alphabetical order.
+Example Input: ["banana", "apple", "cherry", "date"]
+Expected Output: ["apple", "banana", "cherry", "date"]
+11.Write a program to reverse each word in a sentence using java 8 fetures
+Example Input: Bharath simha reddy
+Expected Output: htarahB ahmis ydder
+12.Write a program to count the number of vowels and consonants in a given string.
+13.Write a program to check if two strings are anagrams of each other.
+ Input: "listen" and "silent" → Output: True.
+14.write a program to Remove all duplicate characters from a string.
+ Input: "programming" → Output: "progamin"
+15.Write a to find the first non-repeating character in a string.
+ Input: "swiss" → Output: "w"
+16.Write a program to check if a string contains only digits.
+ Input: "12345" → Output: True, "123a5" → Output: False
+17.Find the longest substring without repeating characters.
+ Input: "abcabcbb" → Output: "abc"
+18.Count the number of words in a string.
+ Input: "Java is fun" → Output: 3
+19.Remove all characters from a string except alphabets.
+ Input: "a1b2c3!" → Output: "abc"
+20.Write a program to find the maximum occurring character in a string.

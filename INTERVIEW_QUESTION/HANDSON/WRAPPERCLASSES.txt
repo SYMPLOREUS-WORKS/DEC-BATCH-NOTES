@@ -1,0 +1,9 @@
+1.Explain autoboxing and unboxing in Java. Write a program to demonstrate both.
+2. Write a program to convert primitive types to their corresponding wrapper classes.
+3.Write a program to extract primitive values from wrapper objects.
+4.What is NumberFormatException? Write a program that handles this exception when converting a string to an integer.
+5. Write a program to demonstrate the use of methods like equals(), hashCode(), and toString() in wrapper classes.
+6.Explain the buffer constant pool and when Integer objects use heap memory versus the buffer constant pool. Write a program to demonstrate this.
+7.Explain how wrapper classes are used in collections. Write a program to demonstrate using wrapper classes with Java Collections.
+8.Write a program to demonstrate the behavior of the == operator versus the .equals() method with wrapper objects.
+9.Explain integer caching in Java. Write a program that demonstrates how integer caching affects object equality.
