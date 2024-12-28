@@ -1,0 +1,103 @@
+1.Create a List of integers and add five numbers to it. Print the List.
+2.Write a program to find the size of a List after adding three elements.
+3.Create a List of strings and use a loop to print each element.
+4.Write a method that takes a List and returns the first element.
+5.How do you check if a List contains a specific element? Write a program to demonstrate this.
+6.Create a List of doubles and calculate the sum of all elements.
+7.Write a program to remove an element by index from a List.
+8.Create a List of characters and replace a specific character with another.
+9.Write a program to find the index of a specific element in a List.
+10.Create a List of fruits and sort it in alphabetical order.
+11.Write a method that takes a List of integers and returns the largest element.
+12.Write a program to reverse a List of strings.
+13.Create a List of integers and remove all even numbers from it.
+14.Write a method to convert a List of strings to a single comma-separated string.
+15.Create a List of numbers and demonstrate how to find the average of the elements.
+16.Write a program to create a sublist from an existing List.
+17.How do you check if two Lists are equal? Write a program to demonstrate this.
+18.Write a program to count the occurrence of a specific element in a List.
+19.Create a List of employees (with fields like name and age) and sort it by age.
+20.Write a method to merge two Lists into one without duplicates.
+21.Write a program that uses a ListIterator to traverse a List in both directions.
+22.Create a List and shuffle its elements randomly.
+23.Write a method that removes duplicates from a List while maintaining the order.
+24.Create a List of integers and implement a method to find the second largest number.
+25.Write a program to partition a List into smaller sublists of a given size.
+26.How do you convert an array to a List? Write a program to demonstrate this.
+27.Create a List of integers, sort it, and then find the median value.
+28.Write a program to compare two Lists and print the elements that are different.
+29.Create a List of strings and implement a method to sort them by their lengths.
+30.Write a method to rotate a List to the left by a specified number of positions.
+31.Given a List of numbers, write a program to filter out numbers less than a specified threshold.
+32.Write a program that takes two Lists of integers and finds their intersection.
+33.Create a List of strings and implement a method to find the longest string.
+34.How would you flatten a List of Lists into a single List? Write a program to demonstrate this.
+35.Write a program to find the maximum frequency element in a List.
+36.Create a List and implement a method to swap two elements at specified indices.
+37.Write a program to copy all elements from one List to another.
+38.Create a List of custom objects and implement a method to filter based on a specific attribute.
+39.Write a program that uses Streams to filter and collect elements from a List.
+40.How do you convert a List to a Map? Write a program to demonstrate this.
+41.Create a List of integers and write a method to sort it without using built-in sort functions.
+42.Write a program to find the first non-repeating character in a List of characters.
+43.How would you implement a stack using a List? Write the necessary methods.
+44.Create a List and implement a queue using two stacks.
+45.Write a program that checks if a List is a palindrome.
+46.Create a List of integers and implement a method to return a List with squared values.
+47.Write a program that demonstrates the use of the removeIf method on a List.
+48.How would you implement a priority queue using a List? Write the necessary methods.
+49.Write a program to find the longest consecutive sequence in a List of integers.
+50.Create a List and implement a method to find all pairs that sum to a specific value.
+=============================================================================================
+set
+
+1.Write a program to create a HashSet and add five integer elements to it.
+2.How do you check if a HashSet contains a specific element?
+3.Create a TreeSet of strings and add five names to it. Verify if they are stored in sorted order.
+4.Create a LinkedHashSet of integers and add elements. Observe the insertion order.
+5.How do you remove an element from a HashSet?
+6.Write a program to iterate through a HashSet using an enhanced for loop.
+7.Write a program to iterate through a TreeSet using an iterator.
+8.What happens when you try to add duplicate elements to a HashSet?
+9.Write a program to compare two HashSet objects for equality.
+10.Add null values to a HashSet, TreeSet, and LinkedHashSet. What are the results?
+11.How can you convert a HashSet into a TreeSet?
+12.Write a program to add all elements of a HashSet into a LinkedHashSet.
+13.How do you find the size of a TreeSet?
+14.Create a TreeSet of integers and find the smallest and largest elements.
+15.Write a program to remove all elements from a LinkedHashSet.
+16.Add elements to a HashSet and check if the set is empty after removal.
+17.Create a TreeSet of custom objects (e.g., Person) and sort by the natural ordering.
+18.How can you retain only common elements between two HashSet objects?
+19.Write a program to remove duplicates from an ArrayList using a HashSet.
+20.Demonstrate how a TreeSet handles case sensitivity with strings.
+21.Create a TreeSet with a custom Comparator to sort integers in descending order.
+22.Write a program to create a TreeSet of strings that sorts in reverse alphabetical order.
+23.Create a TreeSet of custom objects (e.g., Employee) and sort by an id field using a Comparator.
+24.How can you use a Comparator to sort a TreeSet case-insensitively?
+25.Implement a Comparator for sorting a TreeSet of numbers based on their modulus with 5.
+26.Create a TreeSet of custom objects and sort by multiple fields using a Comparator (e.g., by name and then age).
+27.What happens when you use a null Comparator in a TreeSet?
+28.Can you use a lambda expression for a Comparator in a TreeSet? Write a program to demonstrate.
+29.Write a program to compare the natural ordering of a TreeSet with a custom Comparator.
+30.How do you use a Comparator to ignore case sensitivity for sorting LinkedHashSet elements?
+31.How can you find the union of two sets using HashSet?
+32.Write a program to find the intersection of two sets using TreeSet.
+33.Write a program to demonstrate the difference between two sets using HashSet.
+34.How can you synchronize access to a HashSet for thread-safe operations?
+35.Create a TreeSet of strings with a Comparator that sorts strings by their lengths.
+36.Demonstrate how a LinkedHashSet can be used to maintain the order of unique elements in a stream.
+37.How do you find the subset of a TreeSet that falls within a specific range of values?
+38.Write a program to filter elements of a HashSet based on a condition (e.g., even numbers).
+39.Use removeIf to delete elements from a TreeSet that do not match a condition.
+40.Write a program to merge multiple sets into a single HashSet.
+41.Create a TreeSet of dates and find the first and last dates.
+42.Use a LinkedHashSet to remove duplicates while maintaining the order of elements in a list.
+43.Write a program to check if one set is a subset of another set.
+44.Implement a HashSet to simulate a simple caching mechanism.
+45.Write a program to store and sort file names using a TreeSet with a custom Comparator.
+46.How can you ensure that a TreeSet is sorted in descending order?
+47.Use a TreeSet with a Comparator to store points in a 2D plane sorted by their distance from the origin.
+48.Write a program to compare the performance of HashSet, TreeSet, and LinkedHashSet for adding elements.
+49.Demonstrate the usage of forEach with a LinkedHashSet to print elements.
+50.Create a TreeSet with custom objects and demonstrate how to override compareTo and use Comparator.

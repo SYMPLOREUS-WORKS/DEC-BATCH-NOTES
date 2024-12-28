@@ -1,0 +1,5 @@
+1.Write a Java program to print all the Mondays in a given month.
+2.How do you calculate the number of working days between two dates using LocalDate?
+3.How do you handle leap years with LocalDate?
+4.Write a program to convert a LocalDateTime to a java.util.Date object.
+5.How can you validate if a string is a valid date format for LocalDate parsing?

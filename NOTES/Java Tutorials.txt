@@ -482,6 +482,17 @@ while overriding
  while implementing make sure no two methods is having same signature but different return type which is not possible
  if overrdidden method is throwing an exception overriding should also throw same exception or it sub class exception
 
+--------------------------------------------------------------------------------
+java.lang package
 
+Object
+getClass();
+hascode();
+toString();
+equals();
+wait() 3 overloaded
+notify();
+notifyall();
+finalise();
 
 

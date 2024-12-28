@@ -374,8 +374,65 @@ Wrapper classes
 30.What is integer cache explain?
 
 ========================================================================================
+date time
 
+1.What is LocalDate, LocalTime, and LocalDateTime in Java? How are they different from Date and Calendar?
+2.How do you create a LocalDate object? Give an example.
+3.How can you get the current date, time, and datetime in Java?
+4.What is the purpose of the java.time package introduced in Java 8?
+5.Can LocalDateTime be used with time zones? Why or why not?
+6.How do you parse a date string into a LocalDate object?
+	Example: Convert "2023-12-26" to a LocalDate.
+7.How do you format a LocalDateTime into a custom string format?
+	Example: Format LocalDateTime to "dd-MM-yyyy HH:mm".
+8.How do you add or subtract days, months, or years from a LocalDate?
+	Example: Add 10 days to the current date.
+9.How can you find the difference between two dates using LocalDate?
+10.What methods are available in LocalTime to manipulate time values?
+	Example: Add 2 hours and 30 minutes to the current time.
+11.How do you combine a LocalDate and LocalTime into a LocalDateTime?
+12.How do you extract only the date or time from a LocalDateTime?
+13.What is the difference between LocalDateTime and ZonedDateTime?
+14.How do you check if a LocalDate is before or after another date?
+15.How can you find the day of the week for a given LocalDate?
+16.What exceptions might be thrown when working with LocalDate, LocalTime, or LocalDateTime?
+17.What happens if you pass an invalid date (e.g., February 30th) to a LocalDate?
+=====================================================================================================
 
+collection frame work
+
+1.What is the List interface in Java, and how is it different from a Set?
+2.What are the common classes that implement the List interface?
+	Example: ArrayList, LinkedList, Vector, Stack.
+3.How is ArrayList different from LinkedList?
+4.What is the difference between List and ArrayList?
+5.How do you create a List instance in Java?
+6.What are the key methods provided by the List interface?
+	Examples: add(int index, E element), get(int index), remove(int index), set(int index, E element), subList(int fromIndex, int toIndex).
+7.How do you sort a List in Java?
+8.How do you convert an array into a List?
+	Example: List<String> list = Arrays.asList(array);.
+9.What is the difference between List.of() and Arrays.asList()?
+10.What are the advantages and disadvantages of using ArrayList versus LinkedList?
+11.What happens if you try to access an invalid index in a List?
+	Example: list.get(-1) or list.get(size).
+12.How does the remove(Object o) method of List work?
+13.What happens if the object is not present in the List?
+14.Explain the subList() method in the List interface.
+15.What is the time complexity of common operations (like add, remove, get) in ArrayList and LinkedList?
+16.How can you make a List thread-safe?
+	Example: Collections.synchronizedList().
+17.Explain how the equals() and hashCode() methods work in the context of a List.
+18.What is the difference between ListIterator and Iterator?
+19.How does ListIterator provide more functionality?
+20.How do you reverse a List in Java?
+21.What is the difference between add() and addAll() methods in the List interface?
+22.How do you handle duplicate elements in a List?
+23.How do you create a List instance from a Collection instance?
+24.What happens if you try to modify an immutable List?
+25.Can a List contain null elements? Are there any limitations?
+26.
+==========================================================================
 
 
 
