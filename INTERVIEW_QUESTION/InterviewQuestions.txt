@@ -337,7 +337,7 @@ Object class
 20.How does the Object class enable runtime type identification?
 ===============================================================
 String class
-
+Strig Builder and String buffer
 
 ============================================================
 Wrapper classes
