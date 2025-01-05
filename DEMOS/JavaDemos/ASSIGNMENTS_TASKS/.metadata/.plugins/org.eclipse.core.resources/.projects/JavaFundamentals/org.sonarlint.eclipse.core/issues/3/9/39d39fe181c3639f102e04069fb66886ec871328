@@ -1,0 +1,21 @@
+
+w
+java:S4973	"<Strings and Boxed types should be compared using "equals()".8ßØ‡‰¿2b 2063849717d32dd19e534b77cabac517h
+[
+java:S2129" Remove this "String" constructor8ßØ‡‰¿2b 27118326006d3829667a400ad23d5d98h
+e	java:S106	"+Replace this use of System.out by a logger.8ßØ‡‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+w
+java:S4973
+"<Strings and Boxed types should be compared using "equals()".8ıç“‰¿2b 2063849717d32dd19e534b77cabac517h
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8ıç“‰¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106
+"+Replace this use of System.out by a logger.8ıç“‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+[
+java:S2129" Remove this "String" constructor8ıç“‰¿2b 27118326006d3829667a400ad23d5d98h
+e	java:S106"+Replace this use of System.out by a logger.8ıç“‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8œŞ•‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8Û™¦‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8Û™¦‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8„Ü§‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8„Ü§‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh

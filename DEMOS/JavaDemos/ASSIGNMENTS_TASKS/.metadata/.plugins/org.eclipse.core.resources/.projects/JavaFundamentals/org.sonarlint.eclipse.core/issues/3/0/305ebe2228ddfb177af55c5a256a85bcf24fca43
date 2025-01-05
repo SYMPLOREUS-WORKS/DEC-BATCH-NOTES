@@ -1,0 +1,39 @@
+
+c
+java:S3740"/Provide the parametrized type for this generic.b 9bd81329febf6efe22788e03ddeaf0afh
+p
+java:S4973("<Strings and Boxed types should be compared using "equals()".b 2063849717d32dd19e534b77cabac517h
+Y
+java:S2157"%Add a "clone()" method to this class.b 85aa7115002faa603cc58beb6bbb51d7h
+µ
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.b ae7be26cdaa742ca148068d5ac90eacah
+j
+java:S18540"6Remove this useless assignment to local variable "o2".b fef95970c1bfcdb719a2f33e14f26ad6h
+j
+java:S1854,"6Remove this useless assignment to local variable "ob".b c2f0ec61e8f0f73a5d042fe16a8c2a9ah
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106!"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106""+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106#"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+T
+java:S2129%" Remove this "String" constructorb 27118326006d3829667a400ad23d5d98h
+T
+java:S2129&" Remove this "String" constructorb 27118326006d3829667a400ad23d5d98h
+^	java:S106'"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106("+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106)"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106*"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+[
+java:S1481,"'Remove this unused "ob" local variable.b 99faee4e1a331a7595932b7c18f9f5f6h
+S
+java:S1111-"Remove this call to finalize().b 12071b81bb60f781f9eb9672c5553bf0h
+|
+java:S5738-"HRemove this call to a deprecated method, it has been marked for removal.b 12071b81bb60f781f9eb9672c5553bf0h
+[
+java:S14810"'Remove this unused "o2" local variable.b 2d387ab98437e5f528a87b031a086256h

@@ -1,0 +1,23 @@
+
+1.Create a program with a simple inner class and demonstrate how to instantiate it from an outer class.
+2.Write a program to demonstrate accessing private members of the outer class from the inner class.
+3.Define a static nested class in an outer class and demonstrate how to instantiate it.
+4.Create an inner class with a constructor and call it from the outer class.
+5.Write a program that uses a method-local inner class and accesses local variables of the method.
+6.Create an inner class with private, protected, and default access modifiers. Demonstrate the scope and usage of each.
+7.Use an anonymous inner class to implement an interface with multiple methods.
+8.Write a program that creates an anonymous inner class extending an abstract class.
+9.Demonstrate inheritance by extending an inner class in a subclass of the outer class.
+10.Explain and write a program to demonstrate why an inner class cannot have static members.
+11.Write a program where a static nested class accesses static members of the outer class.
+12.Write an instance method in the outer class that creates an object of the inner class and calls its methods.
+13.Write a program that creates multiple instances of an inner class with different states.
+14.Create an inner class with a parameterized method that modifies the state of the outer class.
+15.Use inner classes to encapsulate specific functionalities of the outer class
+16.Write a program where the inner class is used by multiple methods in the outer class.
+17.Create an anonymous inner class implementing Comparator to sort a list of integers.
+18.Write a program that uses an anonymous inner class to implement Runnable.
+19.Demonstrate creating inner class objects in a loop and explain any potential memory issues.
+20.Write a program where one inner class contains another inner class. Demonstrate how to instantiate the deepest inner class.
+21.Create a program to show how a method-local inner class accesses final or effectively final variables.
+22.Explain why an inner class cannot be instantiated from a static method and write a program to demonstrate this

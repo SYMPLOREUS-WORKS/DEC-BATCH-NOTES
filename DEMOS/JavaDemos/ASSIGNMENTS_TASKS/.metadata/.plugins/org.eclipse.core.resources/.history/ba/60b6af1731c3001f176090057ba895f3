@@ -1,0 +1,38 @@
+package com.bharath.oops.designpatterns;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		// List<String> l1 = new ArrayList<>();
+		Collection<String> collection = new ArrayDeque<String>();
+		collection.add("bharath");
+		collection.add("raghu");
+		collection.add("ajinkya");
+		collection.add("manish");
+		List<String> l1 = new ArrayList<>(collection);
+		l1.add(new String());
+
+		// access elements get method
+
+		System.out.println(l1.get(0));
+		
+		
+		//update set
+		
+		l1.set(0, "sharath");
+
+		System.out.println(l1.get(0));
+		
+		
+		l1.remove(0);
+		
+		System.out.println(l1.get(0));
+
+	}
+
+}

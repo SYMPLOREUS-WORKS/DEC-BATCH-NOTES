@@ -1,0 +1,44 @@
+
+”
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.8ƒþ©è¼2b f95b70fdc3088560732a5ac135644506h
+e	java:S106"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.8ƒþ©è¼2b f95b70fdc3088560732a5ac135644506h
+e	java:S106"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S11719"YMove the contents of this initializer to a standard constructor or to field initializers.8ƒþ©è¼2b f95b70fdc3088560732a5ac135644506h
+e	java:S106"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106#"+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S1171C"YMove the contents of this initializer to a standard constructor or to field initializers.8ƒþ©è¼2b f95b70fdc3088560732a5ac135644506h
+e	java:S106""+Replace this use of System.out by a logger.8ƒþ©è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106$"+Replace this use of System.out by a logger.8»ë¬è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106("+Replace this use of System.out by a logger.8»ë¬è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106+"+Replace this use of System.out by a logger.8»ë¬è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+p
+java:S22090"5Change this instance-reference to a static reference.8ý’¶è¼2b b80bb7740288fda1f201890375a60c8fh
+e	java:S106)"+Replace this use of System.out by a logger.8ý’¶è¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106-"+Replace this use of System.out by a logger.8å­Üè¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1060"+Replace this use of System.out by a logger.8å­Üè¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1061"+Replace this use of System.out by a logger.8à€Þè¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+o
+java:S1117!"4Rename "a" which hides the field declared at line 9.8…Ìéè¼2b 0cc175b9c0f1b6a831c399e269772661h
+e	java:S1064"+Replace this use of System.out by a logger.8…Ìéè¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1065"+Replace this use of System.out by a logger.8…Ìéè¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+v	java:S125"<This block of commented-out lines of code should be removed.8Çûþè¼2b 48ec5d8bcc53f66d37dc97865f90f146h
+e	java:S1063"+Replace this use of System.out by a logger.8á‰é¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106;"+Replace this use of System.out by a logger.8è­„é¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106<"+Replace this use of System.out by a logger.8›ˆé¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+p
+java:S22091"5Change this instance-reference to a static reference.8‡¶¢é¼2b b80bb7740288fda1f201890375a60c8fh
+p
+java:S22093"5Change this instance-reference to a static reference.8‡¶¢é¼2b b80bb7740288fda1f201890375a60c8fh
+p
+java:S22094"5Change this instance-reference to a static reference.8‡¶¢é¼2b b80bb7740288fda1f201890375a60c8fh
+e	java:S106@"+Replace this use of System.out by a logger.8‡¶¢é¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106D"+Replace this use of System.out by a logger.8‡¶¢é¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106E"+Replace this use of System.out by a logger.8‡¶¢é¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+v	java:S125 "<This block of commented-out lines of code should be removed.8Žð£é¼2b b5b5f808818a75f312196fb56bbfcd08h
+v	java:S125:"<This block of commented-out lines of code should be removed.8Žð£é¼2b df01a3199b40f830c89b3ed16331a88ch

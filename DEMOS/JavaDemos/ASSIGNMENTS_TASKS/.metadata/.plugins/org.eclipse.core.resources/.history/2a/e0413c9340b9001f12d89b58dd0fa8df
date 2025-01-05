@@ -1,0 +1,16 @@
+package com.bharath.oops;
+class Parent2{
+	
+	public void m1() {
+		System.out.println("parent calss m1 method");
+	}
+	
+}
+public class OveridingWrtVisibility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

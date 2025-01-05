@@ -1,0 +1,23 @@
+package com.bharath.oops;
+
+abstract class Parent3 {
+	public abstract void m1();
+}
+
+class Child3 extends Parent3 {
+	public void m1() {
+
+		System.out.println("child class m1 method");
+	}
+}
+
+public class OverridingWrtModifier2 {
+
+	public static void main(String[] args) {
+
+		Parent3 p = new Child3();
+		p.m1();
+
+	}
+
+}

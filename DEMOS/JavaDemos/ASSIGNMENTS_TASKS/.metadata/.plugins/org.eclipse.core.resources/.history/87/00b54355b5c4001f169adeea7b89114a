@@ -1,0 +1,51 @@
+package com.bharath.collectionFramework;
+
+import java.util.Set;
+import java.util.TreeSet;
+class Student{
+	private int stdId;
+	private String stdName;
+	
+	
+	
+	public Student() {
+		super();
+	
+	}
+
+
+
+	public Student(int stdId, String stdName) {
+		super();
+		this.stdId = stdId;
+		this.stdName = stdName;
+	}
+	
+}
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		Set<Integer> treeSet = new TreeSet<Integer>();
+		treeSet.add(25);
+		treeSet.add(1);
+		treeSet.add(3);
+		System.out.println(treeSet);
+
+		Set<String> stringSet = new TreeSet<String>();
+		stringSet.add("B1");
+		stringSet.add("1b");
+		stringSet.add("b");
+		System.out.println(stringSet);
+		
+		
+		Set<Student> studentSet= new TreeSet<Student>();
+		studentSet.add(new Student(1,"bharath"));
+		studentSet.add(new Student(2,"sharath"));
+		studentSet.add(new Student(3,"Ram"));
+		
+		System.out.println(studentSet);
+		
+		
+	}
+
+}

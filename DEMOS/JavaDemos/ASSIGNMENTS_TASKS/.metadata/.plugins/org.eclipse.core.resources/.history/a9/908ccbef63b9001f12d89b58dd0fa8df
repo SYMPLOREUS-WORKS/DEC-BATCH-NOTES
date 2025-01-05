@@ -1,0 +1,19 @@
+package com.bharath.oops;
+
+class Parent9 {
+	int x = 10;
+}
+
+class Child9 extends Parent9 {
+	int x = 50;
+}
+
+public class OverridingWrtVariable {
+
+	public static void main(String[] args) {
+		Child7 c = new Child7();
+		Parent7 p = new Child7();
+		System.out.println(c.x + p.x);
+	}
+
+}

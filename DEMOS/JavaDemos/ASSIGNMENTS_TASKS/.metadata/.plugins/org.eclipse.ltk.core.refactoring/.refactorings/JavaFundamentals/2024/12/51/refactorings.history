@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.bharath.oops.INstanceFLowWrtInheritenceDemo.java&apos; to &apos;InstanceFLowWrtInheritenceDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaFundamentals&apos;&#x0D;&#x0A;- Original element: &apos;com.bharath.oops.INstanceFLowWrtInheritenceDemo.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bharath.oops.InstanceFLowWrtInheritenceDemo.java&apos;" description="Rename compilation unit &apos;INstanceFLowWrtInheritenceDemo.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.bharath.oops{INstanceFLowWrtInheritenceDemo.java" name="InstanceFLowWrtInheritenceDemo.java" references="false" stamp="1734316435116" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 6482aa44cfcf670986e185bdb223aa34h
+v	java:S125"<This block of commented-out lines of code should be removed.8 Ûà◊¿2b bb30ba0b277e7e114796d8bd84617021h
+
+java:S3358"DExtract this nested ternary operation into an independent statement.8–∞ù◊¿2b 007ea381c1edcb25ed3a37f69ddd4acfh

@@ -337,7 +337,59 @@ Object class
 20.How does the Object class enable runtime type identification?
 ===============================================================
 String class
-Strig Builder and String buffer
+1.What is the difference between String, StringBuilder, and StringBuffer?
+2.Why is the String class immutable in Java, and what are the benefits of immutability?
+3.Explain the String pool. How does it work in Java?
+4.What is the difference between new String("example") and "example"?
+5.How does String behave when passed as an argument to a method? Can it be modified?
+6.How does Java manage memory for String objects?
+7.Explain how String interning works. Why is it useful?
+8.What is the impact of using + for String concatenation in loops, and how can it be optimized?
+9.Discuss the performance difference between StringBuilder and + for string concatenation.
+10.How are String objects stored in memory compared to primitive types?
+11.Explain the purpose of the substring() method. Why did it have a memory leak issue in older versions of Java?
+12.What is the difference between equals() and == when comparing strings?
+13.How does the compareTo() method work in the String class?
+14.Explain the functionality of split() and its potential pitfalls.
+15.What does the trim() method do? How is it different from strip() introduced in Java 11?
+16.How can you use regular expressions with the String class? Give an example with matches() or replaceAll().
+17.How do you format strings using the String.format() method?
+18.How would you use String.join() for concatenating strings with a delimiter?
+19.How does the intern() method affect the performance and memory of the String pool?
+20.Why is String declared as final in Java? What would happen if it were not final?
+21.Explain the behavior of String.hashCode() and how it relates to equals().
+22.Why is String considered thread-safe in Java?
+23.Explain how storing sensitive data like passwords in String can lead to security issues. What alternatives would you use
+24.Which memory of JVM is used by the String constant pool?
+25.Explain about the toString(),hashCode() and equals() method of string class?
+26.explain about the substring and exceptions it causes?
+27.What is the strip() and trim() methods in Java?
+28.What is difference between replace() and replaceAll() methods?
+29.What is the use of chars() in java?
+30.List the methods of String which are added in Java 8?
+31.What is the main difference between String, StringBuilder, and StringBuffer?
+32.When would you use StringBuilder over StringBuffer?
+33.What are the advantages of using StringBuilder and StringBuffer compared to using String for string manipulation?
+34.Can you explain the concept of mutability in the context of StringBuilder and StringBuffer?
+35.Why is StringBuffer considered thread-safe while StringBuilder is not?
+36.In what scenarios would you choose StringBuffer over StringBuilder?
+37.How do the performance characteristics of StringBuilder and StringBuffer differ in multithreaded applications?
+38.What methods are available in both StringBuilder and StringBuffer? Can you name a few commonly used methods?
+39.How does the append() method work in StringBuilder and StringBuffer? Can you provide an example?
+40.What is the purpose of the insert() method in StringBuilder and StringBuffer? How is it used?
+41.How do you convert a StringBuilder or StringBuffer to a String?
+42.Can you explain how the reverse() method works in StringBuilder and StringBuffer? Provide an example.
+43.What is the initial capacity of StringBuilder and StringBuffer, and how does it grow?
+44.How can you manually set the capacity of a StringBuilder or StringBuffer, and why would you want to do that?
+45.What happens when you exceed the capacity of a StringBuilder or StringBuffer?
+46.What is the difference between concat() and append () in Java?
+47.In a scenario where you are constructing a large string in a loop, which class would you choose and why?
+48.What are the best practices of String to avoid memory leaks?
+49.Which is the better way to create the String objects literals or using new keyword? Explain why?
+50.Why and how JVM checks the pool before creating an object in the pool but not in heap?
+51.Explain the memory managemet wrt to heap area and pool wrt to String objects?
+
+
 
 ============================================================
 Wrapper classes
@@ -431,8 +483,35 @@ collection frame work
 23.How do you create a List instance from a Collection instance?
 24.What happens if you try to modify an immutable List?
 25.Can a List contain null elements? Are there any limitations?
-26.
+26.Explain how HashSet works internally?
+27.What is the Set interface in Java?
+28.What are the key differences between Set and List interfaces?
+29.Can you explain how the Set interface handles duplicate elements?
+30.What are some common implementations of the Set interface?
+31.What is the time complexity for common operations (add, remove, contains) in a HashSet?
+32.How does HashSet handle collisions? (different objects with same hashcode,Understand buckets in hash table)
+33.What are the differences between HashSet and TreeSet?
+34.When would you choose HashSet over TreeSet or vice versa?
+35.What is the initial capacity of a HashSet, and how does it grow?
+36.What is a LinkedHashSet, and how is it different from HashSet?
+37.How does LinkedHashSet achieve the ordering of elements?
+38.What are the performance implications of using LinkedHashSet compared to HashSet?
+39.What is a TreeSet, and what data structure does it use?
+40.How does TreeSet maintain the order of its elements?
+41.What are the time complexities for common operations in a TreeSet?
+42.When would you use a TreeSet instead of a HashSet?
+43.How do you synchronize a Set in a multi-threaded environment?
+44.Can you explain the concept of a “fail-fast” iterator in the context of Sets?
+45.What is the significance of the equals() and hashCode() methods in Sets?
+46.How would you implement a custom object that can be stored in a Set?
+47.Can you use null elements in a Set? If yes, how many nulls can you store in a HashSet vs. a TreeSet?
+48.What happens if you add an object to a TreeSet that does not implement Comparable and no Comparator is provided?
+49.
+50.
+
+
 ==========================================================================
+
 
 
 

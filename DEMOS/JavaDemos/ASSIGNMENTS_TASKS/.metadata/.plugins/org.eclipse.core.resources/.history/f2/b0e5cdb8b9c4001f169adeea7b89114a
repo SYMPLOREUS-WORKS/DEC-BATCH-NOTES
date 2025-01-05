@@ -1,0 +1,10 @@
+package com.bharath.collectionFramework;
+
+public class ComparatorDemo {
+
+	public static void main(String[] args) {
+	//int compare(T1,T2)
+
+	}
+
+}

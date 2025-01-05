@@ -1,0 +1,40 @@
+
+j
+java:S3740	"/Provide the parametrized type for this generic.8‹ÀÄ‰¿2b 9bd81329febf6efe22788e03ddeaf0afh
+e	java:S106"+Replace this use of System.out by a logger.8ôêá‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ôêá‰¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+[
+java:S2129" Remove this "String" constructor8‘…‚Š¿2b 27118326006d3829667a400ad23d5d98h
+[
+java:S2129" Remove this "String" constructor8‘…‚Š¿2b 27118326006d3829667a400ad23d5d98h
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8Ì¥¬Š¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106"+Replace this use of System.out by a logger.8Ì¥¬Š¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e
+java:S1481"*Remove this unused "count" local variable.8Ôë³Š¿2b e2942a04780e223b215eb8b663cf5353h
+a
+java:S1481"&Remove this unused "m" local variable.8Ôë³Š¿2b 6f8f57715090da2632453988d9a1501bh
+v	java:S125"<This block of commented-out lines of code should be removed.8Ôë³Š¿2b 0b7ddf930412b5dea2a0a2e70ac333c3h
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8£ïÀŠ¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106"+Replace this use of System.out by a logger.8£ïÀŠ¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8˜¬ÉŠ¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8ÞžáŠ¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106""+Replace this use of System.out by a logger.8ÞžáŠ¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+w
+java:S4973""<Strings and Boxed types should be compared using "equals()".8É€ðŠ¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106"+Replace this use of System.out by a logger.8É€ðŠ¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106%"+Replace this use of System.out by a logger.8‹´ùŠ¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106'"+Replace this use of System.out by a logger.8®æ‡‹¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106*"+Replace this use of System.out by a logger.8„ª‹‹¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106,"+Replace this use of System.out by a logger.8–éŽ‹¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106."+Replace this use of System.out by a logger.8û‡•‹¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106<"+Replace this use of System.out by a logger.8ÍÎ±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106@"+Replace this use of System.out by a logger.8³¶Œ±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+|
+java:S1128"ARemove this unused import 'java.nio.file.spi.FileSystemProvider'.8³¶Œ±¿2b 890f53952d9a63caa65f7c9694a99fc4h
+e	java:S106>"+Replace this use of System.out by a logger.8Æ«’±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106?"+Replace this use of System.out by a logger.8¦³•±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106D"+Replace this use of System.out by a logger.8å¾ž±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106G"+Replace this use of System.out by a logger.8¥Ð¥±¿2b bb1c3f2ea781263d3a2bb92b06a2061fh

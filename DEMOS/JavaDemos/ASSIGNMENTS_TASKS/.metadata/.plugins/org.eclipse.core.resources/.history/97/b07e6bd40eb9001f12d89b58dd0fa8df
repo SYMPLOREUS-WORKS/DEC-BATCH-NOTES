@@ -1,0 +1,14 @@
+package com.bharath.oops;
+class Parent{
+	public Object m1() {
+		System.out.println("parent method");
+	}
+}
+public class OverridingCoVariant {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

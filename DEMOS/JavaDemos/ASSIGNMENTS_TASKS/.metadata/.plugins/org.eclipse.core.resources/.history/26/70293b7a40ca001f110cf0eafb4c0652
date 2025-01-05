@@ -1,0 +1,23 @@
+package com.bharath.task.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.bharath.task.entity.Menu;
+
+public class BillGeneratorRepositoryImpl implements BillGeneratorRepository {
+
+	@Override
+	public List<Menu> findAllMenuItems() {
+	List<Menu> menuItems= new ArrayList();
+	
+	Menu menu1= new Menu();
+	menuItems.add(menu1);
+	Menu menu2= new Menu();
+	
+	Menu menu3= new Menu(3l,"COKE",10.0,"BEVERAGE");
+	
+		return null;
+	}
+
+}

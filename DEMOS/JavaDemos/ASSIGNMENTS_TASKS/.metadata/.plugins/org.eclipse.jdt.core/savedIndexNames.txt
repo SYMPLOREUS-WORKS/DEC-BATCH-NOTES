@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+G:\MyWorks\ONLINE_CONTENT\Dec-Us-fullstack-training\DEC-BATCH-NOTES\DEMOS\JavaDemos\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

@@ -1,0 +1,60 @@
+package com.bharath.task;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.bharath.task.controller.BillGeneratorController;
+import com.bharath.task.controller.BillGeneratorControllerImpl;
+import com.bharath.task.dto.MenuDTO;
+
+public class UI {
+
+	public static void main(String[] args) {
+		viewMenu();
+
+		addItemToMenu();
+
+		placeOrder();
+
+	}
+
+	private static void placeOrder() {
+
+	}
+
+	private static void addItemToMenu() {
+
+	}
+
+	private static void viewMenu() {
+
+		System.out.println("Welcome to ABC Restaurant");
+		System.out.println("Enter Y to display menu");
+
+		Scanner scanner = new Scanner(System.in);
+		String response = scanner.next("[YN]");
+		if (response != null && response.equalsIgnoreCase("Y")) {
+			// invoke the view menu method of controller class
+			BillGeneratorController controller = new BillGeneratorControllerImpl();
+			List<MenuDTO> menuResponse = controller.viewMenu();
+			if (menuResponse != null && !menuResponse.isEmpty()) {
+				// iterate response
+				System.out.println("ABC Menu Details");
+				System.out.println("SNO\tNAME\tPRICE\tDESCRIPTION");
+				for (MenuDTO dto : menuResponse) {
+					if (dto != null) {
+						System.out.println(dto.getMenuId() + dto.getName() + dto.getPrice() + dto.getDescription());
+					}
+				}
+
+			}
+
+		} else {
+			
+			//
+			System.out.println("We didnot recived a correct response");
+		}
+
+	}
+
+}

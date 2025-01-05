@@ -1,0 +1,68 @@
+package com.bharath.collectionFramework;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+class Student implements Comparable<Student> {
+	private int stdId;
+	private String stdName;
+
+	public Student() {
+		super();
+
+	}
+
+	public Student(int stdId, String stdName) {
+		super();
+		this.stdId = stdId;
+		this.stdName = stdName;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [stdId=" + stdId + ", stdName=" + stdName + "]";
+	}
+
+	@Override
+	public int compareTo(Student o) {
+		if (o != null) {
+			int o1 = this.stdId;
+			int o2 = o.stdId;
+			// return o1 > 02 ? 89 : o1 < o2 ? -1 : 0;
+			if (o1 > 01)
+				return 89;
+			else if (o1 < 02)
+				return -9;
+			else
+				return 0;
+		}
+		throw new RuntimeException("Student " + 0 + "cannot be a null");
+	}
+
+}
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		Set<Integer> treeSet = new TreeSet<Integer>();
+		treeSet.add(25);
+		treeSet.add(1);
+		treeSet.add(3);
+		System.out.println(treeSet);
+
+		Set<String> stringSet = new TreeSet<String>();
+		stringSet.add("B1");
+		stringSet.add("1b");
+		stringSet.add("b");
+		System.out.println(stringSet);
+
+		Set<Student> studentSet = new TreeSet<Student>();
+		studentSet.add(new Student(1, "bharath"));
+		studentSet.add(new Student(2, "sharath"));
+		studentSet.add(new Student(3, "Ram"));
+
+		System.out.println(studentSet);
+
+	}
+
+}

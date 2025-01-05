@@ -1,0 +1,23 @@
+
+q
+java:S1854""6Remove this useless assignment to local variable "p1".8Ëæÿ–¼2b 98dd88a4a923e18171435fd191f2f8b7h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+a
+java:S1481!"&Remove this unused "c" local variable.8Ëæÿ–¼2b 4a8a08f09d37b73795649038408b5f33h
+v	java:S125#"<This block of commented-out lines of code should be removed.8Ëæÿ–¼2b e3326b0c086e7093775f91b845d54ee7h
+u
+java:S1161":Add the "@Override" annotation above this method signature8é•×–¼2b 772b76917b47b88838f3c947de6d917ah
+e	java:S106"+Replace this use of System.out by a logger.8é•×–¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106	"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+b
+java:S1481""'Remove this unused "p1" local variable.8Ëæÿ–¼2b ec6ef230f1828039ee794566b9c58adch
+u
+java:S1161":Add the "@Override" annotation above this method signature8é•×–¼2b d0bb80aabb8619b6e35113f02e72752bh
+p
+java:S1854!"5Remove this useless assignment to local variable "c".8Ëæÿ–¼2b 98dd88a4a923e18171435fd191f2f8b7h
+p
+java:S1854 "5Remove this useless assignment to local variable "p".8Ëæÿ–¼2b f7bb9118fad728d665ab9881fefc1c80h
+e	java:S106"+Replace this use of System.out by a logger.8é•×–¼2b bb1c3f2ea781263d3a2bb92b06a2061fh
+a
+java:S1481 "&Remove this unused "p" local variable.8Ëæÿ–¼2b 83878c91171338902e0fe0fb97a8c47ah

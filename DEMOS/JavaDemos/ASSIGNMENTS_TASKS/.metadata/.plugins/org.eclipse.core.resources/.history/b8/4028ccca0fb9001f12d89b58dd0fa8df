@@ -1,0 +1,26 @@
+package com.bharath.oops;
+
+class Parent {
+	public Object m1(int a) {
+		System.out.println("parent method");
+		return null;
+	}
+}
+
+class Child extends Parent {
+	public String m1(String b) {
+		System.out.println("child method");
+		return null;
+	}
+}
+
+public class OverridingCoVariant {
+
+	public static void main(String[] args) {
+		Parent p = new Parent();
+		Child c = new Child();
+		Parent p1 = new Child();
+
+	}
+
+}

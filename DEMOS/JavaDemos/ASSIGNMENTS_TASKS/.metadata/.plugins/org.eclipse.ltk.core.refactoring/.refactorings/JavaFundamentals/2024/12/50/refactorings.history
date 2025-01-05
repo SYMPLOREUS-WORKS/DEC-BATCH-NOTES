@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.bharath.oops.OverloadingWrtRunttimeObject.java&apos; to &apos;OverloadingWrtRuntimeObject.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaFundamentals&apos;&#x0D;&#x0A;- Original element: &apos;com.bharath.oops.OverloadingWrtRunttimeObject.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bharath.oops.OverloadingWrtRuntimeObject.java&apos;" description="Rename compilation unit &apos;OverloadingWrtRunttimeObject.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.bharath.oops{OverloadingWrtRunttimeObject.java" name="OverloadingWrtRuntimeObject.java" references="false" stamp="1734060910369" version="1.0"/>
+</session>

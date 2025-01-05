@@ -1,0 +1,5 @@
+package com.bharath.task.exception;
+
+public class BillGeneratorException extends Exception {
+
+}

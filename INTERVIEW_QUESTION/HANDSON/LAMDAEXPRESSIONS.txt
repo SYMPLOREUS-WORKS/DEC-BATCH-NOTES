@@ -1,0 +1,23 @@
+1.Basic Arithmetic: Create a functional interface Adder with a method int add(int a, int b). Implement it using a lambda expression.
+2.String Concatenation: Define a functional interface Concatenator with a method String concatenate(String a, String b). Use a lambda to implement it.
+3.Check Even: Create an interface EvenChecker with a method boolean isEven(int number). Write a lambda that checks if a number is even.
+4.Square Calculator: Create a functional interface SquareCalculator with a method int calculate(int number). Use a lambda to compute the square of a number.
+5.Print String: Define a functional interface Printer with a method void print(String message). Implement it using a lambda.
+6.String Reversal: Create an interface Reverser with a method String reverse(String input). Implement it with a lambda that reverses the string.
+7.Factorial Calculator: Create a functional interface Factorial with a method int calculate(int number). Write a lambda to compute the factorial of a number.
+8.String Contains: Create an interface ContainsChecker with a method boolean contains(String str, char c). Use a lambda to check if a string contains a specific character.
+9.Array Sum: Define a functional interface ArraySummer with a method int sum(int[] array). Write a lambda that computes the sum of an integer array.
+10.String Formatter: Create an interface Formatter with a method String format(String str). Use a lambda to format a string to uppercase.
+11.Custom Condition: Define an interface Condition with a method boolean test(int number). Implement a lambda that checks if a number is prime.
+12.String Replacer: Create an interface Replacer with a method String replace(String str, char oldChar, char newChar). Use a lambda to replace all occurrences of a character.
+13.Max Finder: Define a functional interface MaxFinder with a method int findMax(int a, int b). Implement it using a lambda expression.
+14.Sum of Digits: Create an interface DigitSummer with a method int sumDigits(int number). Use a lambda to calculate the sum of digits of a number.
+15.Custom Mapper: Define an interface Mapper with a method String map(String input). Implement a lambda to remove all vowels from a string.
+16.Sort: Create and interface Sorter with method List<Integer> sort(List<Integer> elements).Implement the method to return sorted List
+17.MinimumValue: Create and interface MinimumValue with method int min(List<Integer> elements).Implement the method to return sorted List
+18.Create a functional interface to convert a List<Integer> to a TreeSet<Integer> in descending order. Write a lambda to achieve this.
+19.Create a RandomGenerator function interface with method int generate(); write lamda expression to generate a random int value
+20.Create a SumCalculator functional interface with method int sum(int... numbers); write lamda expression to find the sum of numbers
+21.Create a ArraySearcher functional interface with method int search(int[] array, int element); write a lamda expression to return the index of element in an array if not present return -1
+22.Create a ArrayMaxFinder functional interface with method int findSeondMax(int[] elements) write a lamda expression to find second max element in an array
+

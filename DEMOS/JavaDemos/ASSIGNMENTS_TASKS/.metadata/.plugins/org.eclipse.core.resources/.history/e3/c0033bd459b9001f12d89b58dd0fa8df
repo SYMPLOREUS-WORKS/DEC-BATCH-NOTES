@@ -1,0 +1,23 @@
+package com.bharath.oops;
+
+interface Interf1 {
+
+	default void m1() {
+		System.out.println("interface default method");
+	}
+
+}
+
+public class OverridingWrtInterface implements Interf1 {
+
+	@Override
+	public void m1() {
+		System.out.println("overiiden default mehod");
+	}
+
+	public static void main(String[] args) {
+		Interf1 i = new OverridingWrtInterface();
+		i.m1();
+	}
+
+}

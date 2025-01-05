@@ -1,0 +1,13 @@
+
+v	java:S125"<This block of commented-out lines of code should be removed.8Â—Ç³¿2b 530ae134fb3fdefa45fb7021b02f0fdfh
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8÷Ãİ³¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106"+Replace this use of System.out by a logger.8÷Ãİ³¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ëã³¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8¿Šê³¿2b 2063849717d32dd19e534b77cabac517h
+w
+java:S4973"<Strings and Boxed types should be compared using "equals()".8øõî³¿2b 2063849717d32dd19e534b77cabac517h
+e	java:S106"+Replace this use of System.out by a logger.8øõî³¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8§âñ³¿2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8¨€ø³¿2b bb1c3f2ea781263d3a2bb92b06a2061fh

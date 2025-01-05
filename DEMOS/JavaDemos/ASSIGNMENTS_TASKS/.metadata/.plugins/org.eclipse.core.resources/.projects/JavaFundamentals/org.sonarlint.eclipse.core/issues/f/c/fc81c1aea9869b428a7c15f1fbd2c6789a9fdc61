@@ -1,0 +1,11 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8¯ÕÖ¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106
+"+Replace this use of System.out by a logger.8½§è¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 6482aa44cfcf670986e185bdb223aa34h
+t
+java:S2121"9Remove this "compareTo" call; it has predictable results.8§™î¯À2b 2ca9c573a90f2c6c67a6e27e8ba9b9d6h
+e	java:S106	"+Replace this use of System.out by a logger.8Îæ¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8§™î¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S1192	"FDefine a constant instead of duplicating this literal "apple" 4 times.8§™î¯À2b 701935c8d90e8c630a35a7ae824446bfh

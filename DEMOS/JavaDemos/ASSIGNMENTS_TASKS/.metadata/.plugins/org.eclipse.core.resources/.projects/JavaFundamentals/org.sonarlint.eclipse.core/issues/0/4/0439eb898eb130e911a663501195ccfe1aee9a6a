@@ -1,0 +1,14 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 6482aa44cfcf670986e185bdb223aa34h
+”
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").8¾ú„¯À2b e204bcb7a1d997ac32cf2ef8abdad98fh
+e	java:S106"+Replace this use of System.out by a logger.8¾ú„¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").8«ë“¯À2b a4f5c9920c2235bcf03341de5d2e2d58h
+e	java:S106"+Replace this use of System.out by a logger.8«ë“¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106("+Replace this use of System.out by a logger.8öÓ£¯À2b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").8¥¯À2b e204bcb7a1d997ac32cf2ef8abdad98fh
+g
+java:S2201*",The return value of "contains" must be used.8ƒª¯À2b 857af22f119fefbfa24769ed2ad6d5e7h

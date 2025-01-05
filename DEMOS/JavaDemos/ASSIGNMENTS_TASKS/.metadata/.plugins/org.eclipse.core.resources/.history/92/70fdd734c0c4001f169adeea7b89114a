@@ -1,0 +1,15 @@
+package com.bharath.collectionFramework;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+public class QueueDemo {
+	public static void main(String[] args) {
+
+		Queue<Integer> intq = new ArrayDeque<Integer>();
+
+		intq.offer(1);
+		intq.offer(2);
+		intq.offer(3);
+	}
+}
