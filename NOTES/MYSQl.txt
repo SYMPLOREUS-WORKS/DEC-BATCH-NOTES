@@ -1,0 +1,9 @@
+MYSQL
+ SQL
+connect to SERVER
+change dir to mysqlserver/bin MySQL -u uername -p
+enter
+give password
+ success  message
+Creationof db
+create schema if not exists us_sessions_db;

@@ -1,0 +1,34 @@
+1.Write a program to create a stream from a List<Integer> and print all its elements using forEach.
+2.Write a program tocConvert an array of strings into a stream and print all elements in uppercase.
+3.Write a program tofilter only even numbers using a stream from   a List<Integer> 
+4.Write a program to generate a stream of integers using Stream.iterate() and limit it to the first 5 numbers.
+5.Write a program to sort list of string based on there length
+6.Write a program torRemove duplicates from a List<String> using a stream
+7.Write a program to find the first element s greater than 10 in list of integers.
+8.Write a program to check if any number in a list is divisible by 7.
+9.Write a program to verify if all numbers in a list are positive using a stream.
+10.Write a program to find no string in a list starts with the letter "Z"
+11.Write a program to find the sum of all numbers in given a List<List<Integer>>
+12.Write a program to group a list of strings by their lengths using streams and Collectors
+13.Write a progrma to count the number of strings in a list that have more than 5 characters
+14.Write a program to find the sum of numbers in a larger list in given List<List<Integer>>
+15.Write a program to find  product of all integers in a list using stream api methods.
+16.Write a program to find the list students whose name starts with "a"
+17.Write a program to convert list of string to single string separated by commas.
+18.Wrte a program to find the maximum value in a list of integers using a stream.
+19.Find the minimum value in a list of doubles using a stream.
+20.Partition a list of numbers into even and odd groups using streams.
+21.Skip the first 3 elements of a stream and print the remaining ones.
+22.Use peek to debug and log each step in a stream pipeline.
+23.Convert a list of strings representing numbers into integers and calculate their sum.
+24.Filter employees with a salary greater than 50k and sort them by name.
+25.Find the second-highest number in a list using streams
+26.Find the sum of the squares of even numbers in a list
+27.Convert a list of strings into a map where the key is the string and the value is its length.
+28.Write a program to extract the all phone numbers of employees as a set where each employee can have multiple phone numbers.
+29.Write a custom collector to calculate the product of all integers in a stream.
+30.Write a program to find the numbers which are starting with 2 from a list of numbers
+31.Write a program to find the count of each character in a string using streams
+
+
+

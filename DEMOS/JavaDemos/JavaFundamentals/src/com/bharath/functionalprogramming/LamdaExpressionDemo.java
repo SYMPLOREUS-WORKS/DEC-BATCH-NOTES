@@ -1,6 +1,6 @@
 package com.bharath.functionalprogramming;
 
-interface FI1 {
+interface FI1  {
 	void m1();
 }
 

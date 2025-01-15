@@ -1,4 +1,4 @@
-package com.bharath.innnerclasses;
+package com.bharath.functionalprogramming;
 
 interface FI5 {
 	int m1(int a, int b, int c);

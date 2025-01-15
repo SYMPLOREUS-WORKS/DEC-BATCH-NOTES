@@ -511,6 +511,29 @@ collection frame work
 
 
 ==========================================================================
+Functional Interfaces
+1.What is functional interface?
+2.Can we have other methods in Functional interface Explain?
+3.Why Functional interface can have only one abstract method?
+4.What is lamda expression?
+5.List the in built function interfaces with respective abstract methods?
+6.What is method reference ? Explain its types with a program?
+7.Why we cannot reassign the local variable in the lamda expression?
+8.What are the rules for defining a functional interface? How does the @FunctionalInterface annotation help?
+9.What is the difference between a functional interface and a regular interface?
+10.Can a functional interface extend another functional interface? If yes, what happens to the abstract method?
+11.How does the equals() method from Object class fit into a functional interface?
+12.What happens if a functional interface has a default method and a static method?
+13.Explain the difference between Predicate and Function functional interfaces with examples.
+14.What is the difference between a lambda expression and an anonymous inner class?
+15.Explain how lambda expressions are compiled into bytecode.
+16.
+17.
+18.
+19.
+20.
+21.
+
 
 
 
