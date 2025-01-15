@@ -1,0 +1,195 @@
+
+1. Create a database for an E-Commerce System. It should have the following tables:
+
+
+1. Create the users Table
+users: Stores user information.
+ Columns:
+ user_id: Primary Key, Auto-Increment.
+ user_name: Non-nullable.
+ email: Unique, Non-nullable.
+ created_at: Timestamp with default value as current timestamp.
+
+
+ 2. Create the products Table
+
+ products: Stores product details.
+	Columns:
+	product_id: Primary Key, Auto-Increment.
+	product_name: Non-nullable.
+	price: Non-nullable.
+	stock_quantity: Non-nullable, default to 0.
+	
+
+
+ 3. Create the orders Table
+ orders: Stores order information.
+ Columns:
+ order_id: Primary Key, Auto-Increment.
+ user_id: Foreign Key referencing users.user_id.
+ order_date: Timestamp with default value as current timestamp.
+ Add a foreign key constraint for user_id.
+
+4. Create the order_items Table
+order_items: A mapping table for orders and products.
+Columns:
+order_item_id: Primary Key, Auto-Increment.
+order_id: Foreign Key referencing orders.order_id.
+product_id: Foreign Key referencing products.product_id.
+quantity: Non-nullable.
+=====================================================================
+ Create database for employee management system
+1. create table employees: Stores employee information.
+columns
+    emp_id Primary key ,Auto increment.
+    first_name Non-nullabe
+    last_name Non-nullabe
+    email VARCHAR(100) Unique and Non-nullabe
+    phone_number VARCHAR(15) Non-nullabe
+    hire_date Non-nullabe
+    job_id Non-nullable foreign key references job.job_id
+    manager_id  foreign key references employees.emp_id,
+    department_id foreign key references  departments. department_id
+
+
+2.create table jobs: Stores job titles and salaries.
+columns
+    job_id Primary key ,Auto increment.
+    job_title Non-nullabe
+    min_salary 
+    max_salary 
+
+3.create table departments: Stores department details.
+columns
+   department_id Primary key ,Auto increment.
+    department_name Non nullable
+  
+
+4.create table locations: Stores location details.
+columns
+    location_id Primary key ,Auto increment.
+    city 
+    state 
+    country 
+=====================================================================
+create database for hospital management system
+1.create table patients: Stores patient details.
+columns 
+    patient_id Primary key ,Auto increment.
+    first_name Non nullable
+    last_name Non nullable
+    dob Non nullable
+    gender should be ('Male', 'Female', 'Other')
+    phone_number 
+    email should be unique
+
+2.create table doctors: Stores doctor details.
+columns
+    doctor_id Primary key ,Auto increment.
+    first_name Non nullable
+    last_name Non nullable
+    specialty Non nullable
+    phone_number Non nullable
+    email Non nullable and unique
+3.Create table doctors_patients to map doctors and patients
+  columns 
+  doctor_id foreign key references doctors.doctor_id
+  patient_id foreign key references patients.patients_id
+
+4.create table appointments: Stores appointment details.
+
+columns
+    appointment_id Primary key ,Auto increment.
+    patient_id foreign key references patients.patients_id
+    doctor_id foreign key references doctors.doctor_id
+    appointment_date non nullable
+    reason  non nullable
+
+5.create table medical_records: Stores patient medical records.
+columns
+    record_id Primary key ,Auto increment.
+    patient_id foreign key references patients.patients_id
+    doctor_id foreign key references doctors.doctor_id
+    diagnosis TEXT,
+    treatment TEXT,
+    record_date non nullable
+=====================================================================
+create database for school management system
+
+1.create table students: Stores student information.
+  columns
+    student_id Primary key ,Auto increment.
+    first_name non nullable
+    last_name  non nullable
+    dob  non nullable
+    gender should be ('Male', 'Female', 'Other')
+    class_id foreign key references classes.class_id
+
+2.create table classes: Stores class details.
+
+ columns
+    class_id Primary key ,Auto increment.
+    class_name non nullable
+    teacher_id foreign key references teachers.teacher_id
+
+3. create table teachers: Stores teacher information.
+columns
+    teacher_id Primary key ,Auto increment.
+    first_name non nullable
+    last_name non nullable
+
+4. create table subjects: Stores subjects offered.
+columns
+	subject_id Primary key ,Auto increment.
+        subject_name non nullable
+5. create table subject_teacher maps the teachers and subjects
+columns 
+  subject_id foreign key references subjects.subject_id
+  teacher_id foreign key references teachers.teacher_id
+
+6. create table subject_student maps students and subjects
+ columns
+    subject_id foreign key references subjects.subject_id
+    student_id foreign key references students.student_id
+
+
+====================================================================
+create music player database
+
+1.create table songs: Stores song details.
+column
+    song_id Primary key ,Auto increment.
+    title non-nullable
+    artist_id foreign key references artists.artist_id
+    album_id foreign key references albums.album_id
+    genre non nullable
+    duration non nullable
+
+2.create table artists: Stores artist details.
+columns
+     artist_id  Primary key ,Auto increment.
+     artist_name non nullable
+
+3.create table albums: Stores album details.
+columns 
+  album_id Primary key ,Auto increment.
+  album_name non nullable
+  release_date non nullable
+
+4.create table playlists: Stores playlist details.
+
+columns 
+    playlist_id Primary key ,Auto increment.
+    playlist_name non nullable
+   
+5.create table playlist_songs: Mapping table for playlists and songs.
+
+columns
+    playlist_id foreign key references playlist.playlist_id
+    song_id foreign key references songs.song_id
+
+=================================================================================================
+
+create the above tables wrt dbs
+insert the rows 
+and execute select queries by joining their tables if required
