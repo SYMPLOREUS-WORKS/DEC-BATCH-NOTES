@@ -153,6 +153,7 @@ public class JDBCConnectionDemo {
 				//System.out.println("month " + month);
 				LocalDate creationDatefinal = convertFromDateToLocalDate(creationDate);
 				Date dob = result.getDate("user_dob");
+				
 				LocalDate dobfinal = convertFromDateToLocalDate(dob);
 				User user = new User(userId, email, userName, gender, dobfinal, creationDatefinal);
 				userEntityList.add(user);
