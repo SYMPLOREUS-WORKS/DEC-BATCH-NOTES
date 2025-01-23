@@ -1,0 +1,7 @@
+2025-01-23 09:16:13 [INFO] - controller method called
+2025-01-23 09:16:13 [INFO] - service method called
+2025-01-23 09:16:13 [INFO] - calling ms2
+2025-01-23 09:16:13 [INFO] - ms2 m1 called
+2025-01-23 09:16:13 [INFO] - ms3m1 called
+2025-01-23 09:16:13 [ERROR] - exception occured while calling ms3
+2025-01-23 09:16:13 [ERROR] - exception occured while calling ms2

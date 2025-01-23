@@ -15,12 +15,14 @@ public class PropertiesDemo2 {
 
 		PropertiesConfiguration properties = null;
 		;
-		try {
-			properties = config.properties(file);
-		} catch (ConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
+			try {
+				properties = config.properties(file);
+			} catch (ConfigurationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
 		String url = (String) properties.getProperty("URL");
 		System.out.println(url);
 
