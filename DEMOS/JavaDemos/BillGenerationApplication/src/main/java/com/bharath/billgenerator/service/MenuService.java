@@ -14,6 +14,8 @@ public interface MenuService {
 	ItemDTO updateItemPrice(String nameOfItem, Double newPrice ) throws Exception;
 
 	ItemDTO updateCategoryByItemName(String itemName, String newCategory);
+
+	List<ItemDTO> viewItemsByCategory(String category);
 	
 
 }

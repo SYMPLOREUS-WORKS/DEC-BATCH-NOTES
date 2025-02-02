@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import com.bharath.billgenerator.dto.ItemDTO;
 import com.bharath.billgenerator.entity.Item;
 import com.bharath.billgenerator.exception.NoItemFoundException;
+import com.bharath.billgenerator.exception.NoItemsFoundException;
 import com.bharath.billgenerator.exception.NoItemsFoundInMenuException;
 import com.bharath.billgenerator.repository.ItemRepository;
 
@@ -86,7 +87,7 @@ public class MenuServiceImpl implements MenuService {
 			item.setPrice(newPrice);
 			LOGGER.info("throwing an exception to undertand @Transactional use");
 			// System.out.println(10/0);
-			Class.forName("bharathclass");
+			//Class.forName("bharathclass");
 			return convertToDTO(item);
 		}
 		throw new NoItemFoundException("Item with name " + nameOfItem + " not found");
@@ -110,6 +111,18 @@ public class MenuServiceImpl implements MenuService {
 			return convertToDTO(item);
 		}
 		throw new NoItemFoundException("Item with name " + itemName + " not found");
+	}
+
+	@Override
+	public List<ItemDTO> viewItemsByCategory(String category) {
+		// invoke db with category filter which we used as named query
+		List<Item> items = itemRepository.findItemsBasedOnCategory(category);
+
+		// covert items to item dtos
+		if (items != null && !items.isEmpty()) {
+			return items.stream().map(item -> convertToDTO(item)).toList();
+		}
+  throw  new NoItemsFoundException("items not found with provided category "+ category);
 	}
 
 }

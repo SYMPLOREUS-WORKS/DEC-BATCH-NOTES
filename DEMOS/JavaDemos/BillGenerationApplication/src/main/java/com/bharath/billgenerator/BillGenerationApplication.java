@@ -6,11 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import com.bharath.billgenerator.controller.MenuController;
 import com.bharath.billgenerator.dto.ItemDTO;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class BillGenerationApplication implements CommandLineRunner {
 
 	@Autowired
@@ -24,9 +26,17 @@ public class BillGenerationApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// addItemToMenu();
 		// viewMenu();
-		 //viewItemByName();
-		updatePriceByItemName();
-		//updateCategoryByName();
+		// viewItemByName();
+		 updatePriceByItemName();
+		// updateCategoryByName();
+		//viewItemsByCategory();
+
+	}
+
+	private void viewItemsByCategory() {
+		String category = "REFRESHNER";
+		List<ItemDTO> itemDTOs = menuController.viewItemsByCategory(category);
+		System.out.println(itemDTOs);
 
 	}
 
@@ -39,8 +49,8 @@ public class BillGenerationApplication implements CommandLineRunner {
 	}
 
 	private void updatePriceByItemName() {
-		String nameOfItem = "COKE";
-		Double updatPrice = 150.0;
+		String nameOfItem = "PIZZA";
+		Double updatPrice = 25.0;
 		ItemDTO itemDTO = null;
 		try {
 			itemDTO = menuController.updateItemPriceByName(nameOfItem, updatPrice);

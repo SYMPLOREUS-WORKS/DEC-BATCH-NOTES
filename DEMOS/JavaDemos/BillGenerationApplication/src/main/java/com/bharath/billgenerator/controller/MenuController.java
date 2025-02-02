@@ -37,4 +37,9 @@ public class MenuController {
 		
 		return menuService.updateCategoryByItemName(itemName,newCategory);
 	}
+
+	public List<ItemDTO> viewItemsByCategory(String category) {
+		
+		return menuService.viewItemsByCategory(category);
+	}
 }
