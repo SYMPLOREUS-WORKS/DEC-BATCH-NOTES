@@ -17,5 +17,9 @@ public interface MenuService {
 
 	List<ItemDTO> viewItemsByCategory(String category);
 	
+	List<ItemDTO> sortItemsByColumnName(String... columnName);
+
+	List<ItemDTO> viewInPage(int pageNo, int noOfRows);
+	
 
 }

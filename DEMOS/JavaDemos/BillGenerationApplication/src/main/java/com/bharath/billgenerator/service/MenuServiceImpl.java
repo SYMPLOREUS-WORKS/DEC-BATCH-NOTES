@@ -1,16 +1,22 @@
 package com.bharath.billgenerator.service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.bharath.billgenerator.dto.ItemDTO;
 import com.bharath.billgenerator.entity.Item;
+import com.bharath.billgenerator.exception.ItemAlreadyAddedException;
 import com.bharath.billgenerator.exception.NoItemFoundException;
 import com.bharath.billgenerator.exception.NoItemsFoundException;
 import com.bharath.billgenerator.exception.NoItemsFoundInMenuException;
@@ -30,14 +36,19 @@ public class MenuServiceImpl implements MenuService {
 		// need to convert itemdto->item entity
 		// need to set mandatory fields to entity
 		// save to db
-		Item item = new Item();
-		item.setItemName(itemDTO.getItemName());
-		item.setCategory(itemDTO.getCategory());
-		item.setPrice(itemDTO.getPrice());
-		item.setAddedAt(LocalDateTime.now());
-		// item.setItemId(itemDTO.getItemId());
-		itemRepository.save(item);
-		return itemDTO;
+	Optional<Item> optionalItem=	itemRepository.findByItemNAme(itemDTO.getItemName());
+		if(optionalItem.isEmpty()) {
+			Item item = new Item();
+			item.setItemName(itemDTO.getItemName());
+			item.setCategory(itemDTO.getCategory());
+			item.setPrice(itemDTO.getPrice());
+			item.setAddedAt(LocalDateTime.now());
+			// item.setItemId(itemDTO.getItemId());
+			item = itemRepository.save(item);
+			itemDTO.setItemId(item.getItemId());
+			return itemDTO;
+		}
+		else throw new ItemAlreadyAddedException("Item with name :"+itemDTO.getItemName()+" already available");
 	}
 
 	private ItemDTO convertToDTO(Item item) {
@@ -87,7 +98,7 @@ public class MenuServiceImpl implements MenuService {
 			item.setPrice(newPrice);
 			LOGGER.info("throwing an exception to undertand @Transactional use");
 			// System.out.println(10/0);
-			//Class.forName("bharathclass");
+			// Class.forName("bharathclass");
 			return convertToDTO(item);
 		}
 		throw new NoItemFoundException("Item with name " + nameOfItem + " not found");
@@ -122,7 +133,40 @@ public class MenuServiceImpl implements MenuService {
 		if (items != null && !items.isEmpty()) {
 			return items.stream().map(item -> convertToDTO(item)).toList();
 		}
-  throw  new NoItemsFoundException("items not found with provided category "+ category);
+		throw new NoItemsFoundException("items not found with provided category " + category);
+	}
+
+	@Override
+	public List<ItemDTO> sortItemsByColumnName(String... columnName) {
+
+		// Sort sort=null;
+//		for(String name:columnName) {
+//			sort=Sort.by(name);
+//			Sort tmpSort=Sort.by(name);
+//			sort=sort.and(tmpSort);
+//		}
+		Sort sort = Sort.by(columnName).descending();
+		List<Item> items = itemRepository.findAll(sort);
+
+		if (items != null && !items.isEmpty()) {
+			return items.stream().map(item -> convertToDTO(item)).toList();
+		}
+		throw new NoItemsFoundException("items not found with provided sort " + columnName);
+	}
+
+	@Override
+	public List<ItemDTO> viewInPage(int pageNo, int noOfRows) {
+		Pageable pageable = PageRequest.of(pageNo, noOfRows);
+		Page<Item> page = itemRepository.findAll(pageable);
+
+		List<ItemDTO> dtos = new ArrayList<ItemDTO>();
+		if (page.hasNext()) {
+			List<Item> items = page.getContent();
+			List<ItemDTO> dto = items.stream().map(item -> convertToDTO(item)).toList();
+			dtos.addAll(dto);
+		}
+
+		return dtos;
 	}
 
 }

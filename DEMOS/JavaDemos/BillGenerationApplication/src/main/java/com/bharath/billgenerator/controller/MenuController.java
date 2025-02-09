@@ -42,4 +42,14 @@ public class MenuController {
 		
 		return menuService.viewItemsByCategory(category);
 	}
+
+	public List<ItemDTO> sortByColumnName(String... columnName) {
+		
+		return menuService.sortItemsByColumnName(columnName);
+	}
+
+	public List<ItemDTO> viewInPage(int pageNo, int noOfRows) {
+		
+		return menuService.viewInPage(pageNo,noOfRows);
+	}
 }

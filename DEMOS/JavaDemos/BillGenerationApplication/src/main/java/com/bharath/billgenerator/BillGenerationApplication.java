@@ -24,12 +24,29 @@ public class BillGenerationApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// addItemToMenu();
+		 //addItemToMenu();
 		// viewMenu();
 		// viewItemByName();
-		 updatePriceByItemName();
+		// updatePriceByItemName();
 		// updateCategoryByName();
-		//viewItemsByCategory();
+		// viewItemsByCategory();
+		//sortByColumnName();
+		//viewInPage();
+
+	}
+
+	private void viewInPage() {
+	int pageNo=1;
+	int noOfRows=3;
+	List<ItemDTO> dtos= menuController.viewInPage(pageNo,noOfRows);
+		System.out.println(dtos);
+	}
+
+	private void sortByColumnName() {
+		final String[] columnNames = {"itemName","price"};
+		
+		List<ItemDTO> dtos = menuController.sortByColumnName(columnNames);
+		System.out.println(dtos);
 
 	}
 
